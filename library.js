@@ -50,24 +50,37 @@ function render() {
     return card.arcana === "Minor" && card.suit === currentSuit;
   });
 
-  list.innerHTML = "";
-  list.classList.toggle("minor", currentArcana === "Minor");
-
   if (shown.length === 0) {
-    list.innerHTML = '<li class="empty">These cards are still being written.</li>';
+    list.innerHTML = '<p class="empty">These cards are still being written.</p>';
     return;
   }
 
-  shown.forEach(function (card) {
+  if (currentArcana === "Major") {
+    list.innerHTML = cardListHTML(shown, "");
+  } else {
+    // Ace to Ten, then the four court cards in their own group
+    const numbered = shown.filter(function (card) { return card.number <= 10; });
+    const court = shown.filter(function (card) { return card.number > 10; });
+    list.innerHTML =
+      cardListHTML(numbered, "minor") +
+      '<p class="group-label">Court cards</p>' +
+      cardListHTML(court, "minor");
+  }
+}
+
+function cardListHTML(group, extraClass) {
+  const items = group.map(function (card) {
     const slug = slugify(card.name);
-    list.innerHTML += `
+    const numeral = cardNumeral(card);
+    return `
       <li>
         <a class="card-link" href="card.html?card=${slug}" data-card="${slug}">
-          ${card.arcana === "Major" ? `<span class="card-numeral">${cardNumeral(card)}</span>` : ""}
+          ${numeral ? `<span class="card-numeral">${numeral}</span>` : ""}
           <span>${cardIndexName(card)}</span>
         </a>
       </li>`;
-  });
+  }).join("");
+  return `<ul class="card-list ${extraClass}">${items}</ul>`;
 }
 
 function showCard(slug) {

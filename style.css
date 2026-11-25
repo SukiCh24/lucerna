@@ -453,8 +453,16 @@ h1 {
   columns: 2;
 }
 
-.card-list.minor .card-link {
-  padding-left: 12px;
+.group-label {
+  margin: 28px 0 0 8px;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.group-label + .card-list {
+  margin-top: 6px;
 }
 
 /* Shown where a card's text hasn't been written yet */
