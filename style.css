@@ -167,6 +167,84 @@ h1 {
   padding: 14px 40px;
 }
 
+/* ---------- Menu button (top-left) ---------- */
+
+.site-menu {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  z-index: 10;
+}
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid rgba(201, 203, 214, 0.3);
+  border-radius: 50%;
+  background: rgba(18, 19, 42, 0.7);
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.menu-toggle:hover {
+  border-color: var(--silver);
+}
+
+.menu-toggle span {
+  display: block;
+  height: 1px;
+  background: var(--mist);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* The three lines turn into an X when the menu is open */
+.site-menu.open .menu-toggle span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.site-menu.open .menu-toggle span:nth-child(2) {
+  opacity: 0;
+}
+.site-menu.open .menu-toggle span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.menu-panel {
+  display: none;
+  flex-direction: column;
+  min-width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid rgba(201, 203, 214, 0.25);
+  border-radius: 12px;
+  background: #1a1c3d;
+}
+
+.site-menu.open .menu-panel {
+  display: flex;
+}
+
+.menu-panel a {
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  color: var(--mist);
+  text-decoration: none;
+}
+
+.menu-panel a:hover {
+  background: rgba(159, 180, 224, 0.1);
+}
+
+.menu-panel a[aria-current="page"] {
+  color: var(--moon-blue);
+}
+
 /* ---------- Shared page header ---------- */
 
 .page-header {
@@ -463,9 +541,9 @@ h1 {
 }
 
 .map-name {
-  font-size: 0.7rem;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.9rem;
+  line-height: 1.15;
 }
 
 .map-suits {
