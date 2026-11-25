@@ -717,15 +717,18 @@ h1 {
   margin: 0 0 8px;
 }
 
-/* Card meaning text: EB Garamond, a book-like serif.
-   It runs small, so it is set a little larger than the rest of the app. */
+/* Card meaning text: Crimson Pro Light, a slender book-like serif.
+   It runs small, so it is set a little larger than the rest of the app.
+   The smoothing lines keep light text on the dark background from looking heavy on Macs. */
 .card-section p {
   margin: 0;
   max-width: 65ch;
-  font-family: 'EB Garamond', serif;
-  font-weight: 400;
-  font-size: 1.18rem;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
   line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .card-pager {
