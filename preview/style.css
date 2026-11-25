@@ -1,0 +1,738 @@
+:root {
+  --night: #12132a;
+  --twilight: #252850;
+  --mist: #e8e6f0;
+  --peach: #f2c4a8;
+  --moon-blue: #9fb4e0;
+  --silver: #c9cbd6;
+  --faint-line: rgba(201, 203, 214, 0.15);
+}
+
+html {
+  background-color: var(--night);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at 50% 0%, var(--twilight), var(--night) 70%);
+  background-attachment: fixed;
+  color: var(--mist);
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+}
+
+/* ---------- Home page ---------- */
+
+.tagline span {
+  display: inline-block;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 400;
+  font-size: clamp(4rem, 14vw, 8rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.line {
+  width: 120px;
+  height: 1px;
+  margin: 28px 0;
+  background: linear-gradient(90deg, transparent, var(--silver), transparent);
+}
+
+.tagline {
+  margin: 0;
+  line-height: 2;
+  color: var(--moon-blue);
+  font-size: 0.95rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.home-menu {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* "Reversed meanings" switch */
+.switch-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  cursor: pointer;
+  font-size: 0.78rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.switch-input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.switch {
+  position: relative;
+  flex-shrink: 0;
+  width: 40px;
+  height: 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 203, 214, 0.35);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.switch::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--silver);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.switch-input:checked + .switch {
+  background: rgba(159, 180, 224, 0.25);
+  border-color: var(--moon-blue);
+}
+
+.switch-input:checked + .switch::after {
+  transform: translateX(18px);
+  background: #ffffff;
+}
+
+.switch-input:focus-visible + .switch {
+  outline: 2px solid var(--moon-blue);
+  outline-offset: 3px;
+}
+
+/* ---------- Buttons ---------- */
+
+.tab {
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--mist);
+  background: transparent;
+  border: 1px solid rgba(201, 203, 214, 0.35);
+  border-radius: 999px;
+  padding: 10px 22px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab:hover {
+  border-color: var(--silver);
+}
+
+.tab.active {
+  background: rgba(159, 180, 224, 0.18);
+  border-color: var(--moon-blue);
+  color: #ffffff;
+}
+
+.tab.small {
+  font-size: 0.75rem;
+  padding: 8px 18px;
+}
+
+.tab.large {
+  font-size: 0.95rem;
+  padding: 14px 40px;
+}
+
+/* ---------- Shared page header ---------- */
+
+.page-header {
+  text-align: center;
+  padding: 32px 24px 24px;
+}
+
+.home-link {
+  display: inline-block;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5rem;
+  color: var(--mist);
+  text-decoration: none;
+}
+
+.page-header h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin: 4px 0 0;
+}
+
+/* ---------- Library page ---------- */
+
+.index-pane {
+  padding: 32px 24px 64px;
+}
+
+.index-pane .page-header {
+  padding: 0 0 24px;
+}
+
+.arcana-nav,
+.suit-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.arcana-nav {
+  margin-bottom: 16px;
+}
+
+/* Cards read down each column, like an index.
+   Up to two columns, each at least 200px wide (one column on narrow phones). */
+.card-list {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  columns: 2 200px;
+  column-gap: 24px;
+}
+
+.card-list li {
+  border-bottom: 1px solid var(--faint-line);
+  break-inside: avoid;
+}
+
+.card-link {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--mist);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.card-link:hover {
+  color: #ffffff;
+  background: rgba(159, 180, 224, 0.08);
+}
+
+.card-link.active {
+  color: #ffffff;
+  background: rgba(159, 180, 224, 0.18);
+}
+
+.card-numeral {
+  width: 3em;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  font-variant-numeric: lining-nums;
+  color: var(--moon-blue);
+}
+
+.card-list li.empty {
+  column-span: all;
+  border-bottom: none;
+}
+
+.empty {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--moon-blue);
+}
+
+.detail-pane {
+  display: none;
+}
+
+.detail-placeholder {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--moon-blue);
+}
+
+/* Wide screens: index on the left, card on the right */
+@media (min-width: 900px) {
+  .library-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }
+  .index-pane,
+  .detail-pane {
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  .index-pane {
+    padding: 32px 40px 48px;
+    border-right: 1px solid var(--faint-line);
+  }
+  .detail-pane {
+    display: block;
+    padding: 48px 48px 64px;
+  }
+}
+
+/* ---------- Library: before anything is chosen ---------- */
+
+.choosing .arcana-nav {
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin: 40px 0;
+}
+
+.choosing .arcana-nav .tab {
+  width: 280px;
+  padding: 14px 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.arcana-intro {
+  max-width: 56ch;
+}
+
+.arcana-intro h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin: 0 0 12px;
+}
+
+.arcana-intro h3 {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin: 32px 0 8px;
+}
+
+.arcana-intro .count {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.arcana-intro p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.suit-notes {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.suit-notes li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--faint-line);
+  font-size: 0.95rem;
+}
+
+.suit-notes span {
+  display: inline-block;
+  width: 6.5em;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Phones: the guide sits under the buttons */
+.card-index .arcana-intro {
+  padding: 0 8px;
+}
+
+@media (min-width: 900px) {
+  /* Wide screens: the guide lives on the right, buttons centered on the left */
+  .card-index .arcana-intro {
+    display: none;
+  }
+  .choosing .index-pane {
+    display: flex;
+    flex-direction: column;
+  }
+  .choosing .arcana-nav {
+    flex: 1;
+    justify-content: center;
+    margin: 0 0 10vh;
+  }
+  .detail-pane .arcana-intro {
+    margin: 0 auto;
+    padding-top: 6vh;
+  }
+}
+
+/* ---------- Map of the deck ---------- */
+
+.map-label {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 20px 0 12px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.map-label span {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.map-major-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+  gap: 6px;
+}
+
+.map-major {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 60px;
+  padding: 6px 4px;
+  border: 1px solid rgba(201, 203, 214, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--mist);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.map-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-variant-numeric: lining-nums;
+  color: var(--moon-blue);
+}
+
+.map-name {
+  font-size: 0.7rem;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+}
+
+.map-suits {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.map-suit {
+  border: 1px solid rgba(201, 203, 214, 0.2);
+  border-radius: 10px;
+  padding: 10px 4px;
+}
+
+.map-suit h3 {
+  margin: 0 0 6px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: #ffffff;
+}
+
+.map-pips,
+.map-court {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-court {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid rgba(159, 180, 224, 0.35);
+}
+
+.map-minor {
+  display: block;
+  padding: 3px 2px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.02rem;
+  color: var(--mist);
+  transition: background 0.2s ease;
+}
+
+.map-major:hover,
+.map-minor:hover {
+  background: rgba(159, 180, 224, 0.08);
+  border-color: var(--silver);
+}
+
+.map-major.active,
+.map-minor.active {
+  background: rgba(159, 180, 224, 0.2);
+  border-color: var(--moon-blue);
+  color: #ffffff;
+}
+
+/* ---------- Card details (used on both pages) ---------- */
+
+.card-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: var(--moon-blue);
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+/* Top block: big card image beside its name and keywords */
+.card-top {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.detail-pane .card-top {
+  grid-template-columns: 240px 1fr;
+  gap: 36px;
+}
+
+/* Below: the meanings get the full width */
+.card-body {
+  margin-top: 16px;
+}
+
+.card-art {
+  aspect-ratio: 7 / 12;
+  border: 1px solid rgba(201, 203, 214, 0.35);
+  border-radius: 12px;
+  background: linear-gradient(160deg, #2c3060, #161833);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  font-variant-numeric: lining-nums;
+  color: var(--silver);
+}
+
+.detail-pane .card-title {
+  font-size: 2.6rem;
+}
+
+.card-eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.keyword-label {
+  margin: 24px 0 8px;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.keyword-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.keyword {
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 203, 214, 0.3);
+}
+
+.keyword.reversed {
+  color: var(--peach);
+  border-color: rgba(242, 196, 168, 0.3);
+}
+
+.card-section {
+  margin-top: 36px;
+}
+
+.card-section h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 0 8px;
+}
+
+.card-section p {
+  margin: 0;
+  max-width: 65ch;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.card-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--faint-line);
+}
+
+.card-pager a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  color: var(--mist);
+  text-decoration: none;
+}
+
+.card-pager a:hover {
+  color: var(--moon-blue);
+}
+
+/* Minor Arcana index: short names (Ace, Two...) fit in more columns */
+.card-list.minor {
+  columns: 2;
+}
+
+.group-label {
+  margin: 28px 0 0 8px;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.group-label + .card-list {
+  margin-top: 6px;
+}
+
+/* Shown where a card's text hasn't been written yet */
+.not-written {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: rgba(159, 180, 224, 0.6);
+}
+
+/* ---------- Phones ---------- */
+
+/* Narrower laptop windows: a slightly smaller card beside the index */
+@media (min-width: 900px) and (max-width: 1200px) {
+  .detail-pane .card-top {
+    grid-template-columns: 180px 1fr;
+    gap: 28px;
+  }
+  .detail-pane .card-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .card-top {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    text-align: center;
+  }
+  .card-art {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  .card-heading .keyword-row {
+    justify-content: center;
+  }
+}
+
+/* Small phones: keep the buttons on tidy rows */
+@media (max-width: 500px) {
+  .arcana-nav,
+  .suit-nav {
+    gap: 8px;
+  }
+  .tab {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    padding: 9px 16px;
+  }
+  .tab.small {
+    font-size: 0.68rem;
+    padding: 7px 12px;
+  }
+}
