@@ -1,0 +1,400 @@
+:root {
+  --night: #12132a;
+  --twilight: #252850;
+  --mist: #e8e6f0;
+  --peach: #f2c4a8;
+  --moon-blue: #9fb4e0;
+  --silver: #c9cbd6;
+  --faint-line: rgba(201, 203, 214, 0.15);
+}
+
+html {
+  background-color: var(--night);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at 50% 0%, var(--twilight), var(--night) 70%);
+  background-attachment: fixed;
+  color: var(--mist);
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+}
+
+/* ---------- Home page ---------- */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 400;
+  font-size: clamp(4rem, 14vw, 8rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.line {
+  width: 120px;
+  height: 1px;
+  margin: 28px 0;
+  background: linear-gradient(90deg, transparent, var(--silver), transparent);
+}
+
+.tagline {
+  margin: 0;
+  color: var(--moon-blue);
+  font-size: 0.95rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.home-menu {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ---------- Buttons ---------- */
+
+.tab {
+  display: inline-block;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--mist);
+  background: transparent;
+  border: 1px solid rgba(201, 203, 214, 0.35);
+  border-radius: 999px;
+  padding: 10px 22px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab:hover {
+  border-color: var(--silver);
+}
+
+.tab.active {
+  background: rgba(159, 180, 224, 0.18);
+  border-color: var(--moon-blue);
+  color: #ffffff;
+}
+
+.tab.small {
+  font-size: 0.75rem;
+  padding: 8px 18px;
+}
+
+.tab.large {
+  font-size: 0.95rem;
+  padding: 14px 40px;
+}
+
+/* ---------- Shared page header ---------- */
+
+.page-header {
+  text-align: center;
+  padding: 32px 24px 24px;
+}
+
+.home-link {
+  display: inline-block;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5rem;
+  color: var(--mist);
+  text-decoration: none;
+}
+
+.page-header h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin: 4px 0 0;
+}
+
+/* ---------- Library page ---------- */
+
+.index-pane {
+  padding: 32px 24px 64px;
+}
+
+.index-pane .page-header {
+  padding: 0 0 24px;
+}
+
+.arcana-nav,
+.suit-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.arcana-nav {
+  margin-bottom: 16px;
+}
+
+.card-list {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 24px;
+}
+
+.card-list li {
+  border-bottom: 1px solid var(--faint-line);
+}
+
+.card-link {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--mist);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.card-link:hover {
+  color: #ffffff;
+  background: rgba(159, 180, 224, 0.08);
+}
+
+.card-link.active {
+  color: #ffffff;
+  background: rgba(159, 180, 224, 0.18);
+}
+
+.card-numeral {
+  width: 2.5em;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  font-variant-numeric: lining-nums;
+  color: var(--moon-blue);
+}
+
+.card-list li.empty {
+  grid-column: 1 / -1;
+  border-bottom: none;
+}
+
+.empty {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--moon-blue);
+}
+
+.detail-pane {
+  display: none;
+}
+
+.detail-placeholder {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--moon-blue);
+}
+
+/* Wide screens: index on the left, card on the right */
+@media (min-width: 900px) {
+  .library-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }
+  .index-pane,
+  .detail-pane {
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  .index-pane {
+    padding: 32px 40px 48px;
+    border-right: 1px solid var(--faint-line);
+  }
+  .detail-pane {
+    display: block;
+    padding: 48px 48px 64px;
+  }
+}
+
+/* ---------- Card details (used on both pages) ---------- */
+
+.card-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 32px;
+  color: var(--moon-blue);
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+.card-detail {
+  display: grid;
+  grid-template-columns: minmax(200px, 300px) 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.detail-pane .card-detail {
+  grid-template-columns: 150px 1fr;
+  gap: 32px;
+}
+
+.card-art {
+  aspect-ratio: 7 / 12;
+  border: 1px solid rgba(201, 203, 214, 0.35);
+  border-radius: 12px;
+  background: linear-gradient(160deg, #2c3060, #161833);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem;
+  font-variant-numeric: lining-nums;
+  color: var(--silver);
+  position: sticky;
+  top: 32px;
+}
+
+.detail-pane .card-art {
+  font-size: 2rem;
+  top: 0;
+}
+
+.card-eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.keyword-label {
+  margin: 24px 0 8px;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+.keyword-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.keyword {
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 203, 214, 0.3);
+}
+
+.keyword.reversed {
+  color: var(--peach);
+  border-color: rgba(242, 196, 168, 0.3);
+}
+
+.card-section {
+  margin-top: 36px;
+}
+
+.card-section h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 0 8px;
+}
+
+.card-section p {
+  margin: 0;
+  max-width: 60ch;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.card-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--faint-line);
+}
+
+.card-pager a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  color: var(--mist);
+  text-decoration: none;
+}
+
+.card-pager a:hover {
+  color: var(--moon-blue);
+}
+
+/* ---------- Phones ---------- */
+
+@media (max-width: 700px) {
+  .card-detail {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .card-art {
+    position: static;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+}
