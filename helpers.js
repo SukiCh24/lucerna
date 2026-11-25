@@ -82,20 +82,24 @@ function cardDetailHTML(card) {
 
   return `
     <div class="card-detail">
-      <div class="card-art">${artLabel}</div>
+      <div class="card-top">
+        <div class="card-art">${artLabel}</div>
 
-      <div>
-        <p class="card-eyebrow">${eyebrow}</p>
-        <h2 class="card-title">${card.name}</h2>
+        <div class="card-heading">
+          <p class="card-eyebrow">${eyebrow}</p>
+          <h2 class="card-title">${card.name}</h2>
 
-        <p class="keyword-label">${showReversed ? "Upright" : "Keywords"}</p>
-        <div class="keyword-row">${keywordPills(card.keywordsUpright, "")}</div>
+          <p class="keyword-label">${showReversed ? "Upright" : "Keywords"}</p>
+          <div class="keyword-row">${keywordPills(card.keywordsUpright, "")}</div>
 
-        ${showReversed ? `
-        <p class="keyword-label">Reversed</p>
-        <div class="keyword-row">${keywordPills(card.keywordsReversed, "reversed")}</div>
-        ` : ""}
+          ${showReversed ? `
+          <p class="keyword-label">Reversed</p>
+          <div class="keyword-row">${keywordPills(card.keywordsReversed, "reversed")}</div>
+          ` : ""}
+        </div>
+      </div>
 
+      <div class="card-body">
         <section class="card-section">
           <h3>${showReversed ? "Upright meaning" : "Meaning"}</h3>
           <p>${textOrPending(card.upright)}</p>

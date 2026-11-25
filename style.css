@@ -333,16 +333,22 @@ h1 {
   color: #ffffff;
 }
 
-.card-detail {
+/* Top block: big card image beside its name and keywords */
+.card-top {
   display: grid;
-  grid-template-columns: minmax(200px, 300px) 1fr;
-  gap: 56px;
-  align-items: start;
+  grid-template-columns: 300px 1fr;
+  gap: 48px;
+  align-items: center;
 }
 
-.detail-pane .card-detail {
-  grid-template-columns: 150px 1fr;
-  gap: 32px;
+.detail-pane .card-top {
+  grid-template-columns: 240px 1fr;
+  gap: 36px;
+}
+
+/* Below: the meanings get the full width */
+.card-body {
+  margin-top: 16px;
 }
 
 .card-art {
@@ -354,16 +360,13 @@ h1 {
   align-items: center;
   justify-content: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-variant-numeric: lining-nums;
   color: var(--silver);
-  position: sticky;
-  top: 32px;
 }
 
-.detail-pane .card-art {
-  font-size: 2rem;
-  top: 0;
+.detail-pane .card-title {
+  font-size: 2.6rem;
 }
 
 .card-eyebrow {
@@ -423,7 +426,7 @@ h1 {
 
 .card-section p {
   margin: 0;
-  max-width: 60ch;
+  max-width: 65ch;
   font-size: 1.02rem;
   line-height: 1.7;
 }
@@ -475,16 +478,30 @@ h1 {
 
 /* ---------- Phones ---------- */
 
+/* Narrower laptop windows: a slightly smaller card beside the index */
+@media (min-width: 900px) and (max-width: 1200px) {
+  .detail-pane .card-top {
+    grid-template-columns: 180px 1fr;
+    gap: 28px;
+  }
+  .detail-pane .card-title {
+    font-size: 2.2rem;
+  }
+}
+
 @media (max-width: 700px) {
-  .card-detail {
+  .card-top {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 28px;
+    text-align: center;
   }
   .card-art {
-    position: static;
     width: 100%;
-    max-width: 220px;
+    max-width: 240px;
     margin: 0 auto;
+  }
+  .card-heading .keyword-row {
+    justify-content: center;
   }
 }
 
