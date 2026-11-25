@@ -63,7 +63,9 @@ function setReversed(isOn) {
   }
 }
 
-// Builds everything shown for one card: image, keywords, meanings.
+// Builds everything shown for one card: image, keywords, story, meanings.
+// Section order: Story, Meaning, then Number & journey (Major) or Suit & number (Minor).
+// Until a card's story is written, its old symbolism text is shown under Story.
 function cardDetailHTML(card) {
   const group = cards.filter(function (c) {
     return c.arcana === card.arcana && c.suit === card.suit;
@@ -101,6 +103,11 @@ function cardDetailHTML(card) {
 
       <div class="card-body">
         <section class="card-section">
+          <h3>Story</h3>
+          <p>${textOrPending(card.story || card.symbolism)}</p>
+        </section>
+
+        <section class="card-section">
           <h3>${showReversed ? "Upright meaning" : "Meaning"}</h3>
           <p>${textOrPending(card.upright)}</p>
         </section>
@@ -113,12 +120,7 @@ function cardDetailHTML(card) {
         ` : ""}
 
         <section class="card-section">
-          <h3>Symbolism</h3>
-          <p>${textOrPending(card.symbolism)}</p>
-        </section>
-
-        <section class="card-section">
-          <h3>Suit &amp; number</h3>
+          <h3>${card.arcana === "Major" ? "Number &amp; journey" : "Suit &amp; number"}</h3>
           <p>${textOrPending(card.suitAndNumber)}</p>
         </section>
 
