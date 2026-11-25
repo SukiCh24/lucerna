@@ -717,11 +717,15 @@ h1 {
   margin: 0 0 8px;
 }
 
+/* Card meaning text: EB Garamond, a book-like serif.
+   It runs small, so it is set a little larger than the rest of the app. */
 .card-section p {
   margin: 0;
   max-width: 65ch;
-  font-size: 1.02rem;
-  line-height: 1.7;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 1.18rem;
+  line-height: 1.65;
 }
 
 .card-pager {
