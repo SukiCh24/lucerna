@@ -154,17 +154,19 @@ h1 {
   margin-bottom: 16px;
 }
 
+/* Cards read down each column, like an index.
+   Up to two columns, each at least 200px wide (one column on narrow phones). */
 .card-list {
   list-style: none;
   margin: 28px 0 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  columns: 2 200px;
   column-gap: 24px;
 }
 
 .card-list li {
   border-bottom: 1px solid var(--faint-line);
+  break-inside: avoid;
 }
 
 .card-link {
@@ -191,9 +193,9 @@ h1 {
 }
 
 .card-numeral {
-  width: 2.5em;
+  width: 3em;
   flex-shrink: 0;
-  text-align: right;
+  text-align: left;
   font-size: 0.95rem;
   letter-spacing: 0.05em;
   font-variant-numeric: lining-nums;
@@ -201,7 +203,7 @@ h1 {
 }
 
 .card-list li.empty {
-  grid-column: 1 / -1;
+  column-span: all;
   border-bottom: none;
 }
 
@@ -391,7 +393,7 @@ h1 {
 
 /* Minor Arcana index: short names (Ace, Two...) fit in more columns */
 .card-list.minor {
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  columns: 2;
 }
 
 .card-list.minor .card-link {
