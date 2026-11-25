@@ -1,86 +1,58 @@
-const list = document.getElementById("card-list");
+// "Map of the deck": the whole deck laid out by its structure.
+// Major Arcana on top, then the four suits side by side,
+// each running Ace to Ten, then the four court cards.
+
+const map = document.getElementById("deck-map");
 const detail = document.getElementById("detail-pane");
-const suitNav = document.getElementById("suit-nav");
-const arcanaButtons = document.querySelectorAll("[data-arcana]");
-const suitButtons = document.querySelectorAll("[data-suit]");
 const placeholder = '<p class="detail-placeholder">Choose a card to reveal its meaning.</p>';
+const suits = ["Wands", "Cups", "Swords", "Pentacles"];
 
-let currentArcana = "Major";
-let currentSuit = "Wands";
-
-// Wide screens show the card beside the index.
+// Wide screens show the card beside the map.
 // Phones open the card on its own page instead.
 function isWide() {
   return window.matchMedia("(min-width: 900px)").matches;
 }
 
-function currentView() {
-  return currentArcana === "Major" ? "Major" : "Minor-" + currentSuit;
+function majorTile(card) {
+  const slug = slugify(card.name);
+  return `
+    <a class="map-major" href="card.html?card=${slug}" data-card="${slug}">
+      <span class="map-num">${romanNumerals[card.number]}</span>
+      <span class="map-name">${card.name.replace(/^The /, "")}</span>
+    </a>`;
 }
 
-// Read the web address, for example "#Minor-Cups/ace-of-cups",
-// so the page reopens where the reader left off.
-const saved = location.hash.slice(1).split("/");
-const savedView = saved[0];
-const savedCard = saved[1];
-if (savedView.startsWith("Minor")) {
-  currentArcana = "Minor";
-  const savedSuit = savedView.split("-")[1];
-  if (savedSuit) {
-    currentSuit = savedSuit;
-  }
+function minorCell(card) {
+  const slug = slugify(card.name);
+  return `<a class="map-minor" href="card.html?card=${slug}" data-card="${slug}">${cardIndexName(card)}</a>`;
 }
 
-function render() {
-  arcanaButtons.forEach(function (button) {
-    button.classList.toggle("active", button.dataset.arcana === currentArcana);
+function suitColumn(suit) {
+  const suitCards = cards.filter(function (c) {
+    return c.arcana === "Minor" && c.suit === suit;
   });
-  suitButtons.forEach(function (button) {
-    button.classList.toggle("active", button.dataset.suit === currentSuit);
-  });
-  suitNav.style.display = currentArcana === "Minor" ? "flex" : "none";
-
-  history.replaceState(null, "", "#" + currentView());
-  detail.innerHTML = placeholder;
-
-  const shown = cards.filter(function (card) {
-    if (currentArcana === "Major") {
-      return card.arcana === "Major";
-    }
-    return card.arcana === "Minor" && card.suit === currentSuit;
-  });
-
-  if (shown.length === 0) {
-    list.innerHTML = '<p class="empty">These cards are still being written.</p>';
-    return;
-  }
-
-  if (currentArcana === "Major") {
-    list.innerHTML = cardListHTML(shown, "");
-  } else {
-    // Ace to Ten, then the four court cards in their own group
-    const numbered = shown.filter(function (card) { return card.number <= 10; });
-    const court = shown.filter(function (card) { return card.number > 10; });
-    list.innerHTML =
-      cardListHTML(numbered, "minor") +
-      '<p class="group-label">Court cards</p>' +
-      cardListHTML(court, "minor");
-  }
+  const numbered = suitCards.filter(function (c) { return c.number <= 10; });
+  const court = suitCards.filter(function (c) { return c.number > 10; });
+  return `
+    <div class="map-suit">
+      <h3>${suit}</h3>
+      <div class="map-pips">${numbered.map(minorCell).join("")}</div>
+      <div class="map-court">${court.map(minorCell).join("")}</div>
+    </div>`;
 }
 
-function cardListHTML(group, extraClass) {
-  const items = group.map(function (card) {
-    const slug = slugify(card.name);
-    const numeral = cardNumeral(card);
-    return `
-      <li>
-        <a class="card-link" href="card.html?card=${slug}" data-card="${slug}">
-          ${numeral ? `<span class="card-numeral">${numeral}</span>` : ""}
-          <span>${cardIndexName(card)}</span>
-        </a>
-      </li>`;
-  }).join("");
-  return `<ul class="card-list ${extraClass}">${items}</ul>`;
+function renderMap() {
+  const majors = cards.filter(function (c) { return c.arcana === "Major"; });
+  map.innerHTML = `
+    <section>
+      <p class="map-label">Major Arcana <span>22 cards</span></p>
+      <div class="map-major-grid">${majors.map(majorTile).join("")}</div>
+    </section>
+
+    <section>
+      <p class="map-label">Minor Arcana <span>56 cards · four suits</span></p>
+      <div class="map-suits">${suits.map(suitColumn).join("")}</div>
+    </section>`;
 }
 
 function showCard(slug) {
@@ -92,13 +64,13 @@ function showCard(slug) {
   }
   detail.innerHTML = cardDetailHTML(card);
   detail.scrollTop = 0;
-  list.querySelectorAll(".card-link").forEach(function (link) {
+  map.querySelectorAll("[data-card]").forEach(function (link) {
     link.classList.toggle("active", link.dataset.card === slug);
   });
-  history.replaceState(null, "", "#" + currentView() + "/" + slug);
+  history.replaceState(null, "", "#" + slug);
 }
 
-// Clicking a card name (or previous/next) on a wide screen
+// Clicking a card (or previous/next) on a wide screen
 // shows it on the right instead of opening a new page.
 function handleCardClick(event) {
   const link = event.target.closest("a[data-card]");
@@ -109,24 +81,15 @@ function handleCardClick(event) {
   showCard(link.dataset.card);
 }
 
-list.addEventListener("click", handleCardClick);
+map.addEventListener("click", handleCardClick);
 detail.addEventListener("click", handleCardClick);
 
-arcanaButtons.forEach(function (button) {
-  button.addEventListener("click", function () {
-    currentArcana = button.dataset.arcana;
-    render();
-  });
-});
+renderMap();
+detail.innerHTML = placeholder;
 
-suitButtons.forEach(function (button) {
-  button.addEventListener("click", function () {
-    currentSuit = button.dataset.suit;
-    render();
-  });
-});
-
-render();
+// Reopen the last card, for example "#the-fool"
+// (older links like "#Minor-Cups/ace-of-cups" still work).
+const savedCard = location.hash.slice(1).split("/").pop();
 if (savedCard && isWide()) {
   showCard(savedCard);
 }
