@@ -88,7 +88,7 @@ function cardDetailHTML(card) {
         <p class="card-eyebrow">${eyebrow}</p>
         <h2 class="card-title">${card.name}</h2>
 
-        <p class="keyword-label">Upright</p>
+        <p class="keyword-label">${showReversed ? "Upright" : "Keywords"}</p>
         <div class="keyword-row">${keywordPills(card.keywordsUpright, "")}</div>
 
         ${showReversed ? `
@@ -97,7 +97,7 @@ function cardDetailHTML(card) {
         ` : ""}
 
         <section class="card-section">
-          <h3>Upright meaning</h3>
+          <h3>${showReversed ? "Upright meaning" : "Meaning"}</h3>
           <p>${textOrPending(card.upright)}</p>
         </section>
 
