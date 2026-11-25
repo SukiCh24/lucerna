@@ -5,8 +5,9 @@ const arcanaButtons = document.querySelectorAll("[data-arcana]");
 const suitButtons = document.querySelectorAll("[data-suit]");
 const placeholder = '<p class="detail-placeholder">Choose a card to reveal its meaning.</p>';
 
-let currentArcana = "Major";
-let currentSuit = "Wands";
+// Nothing is chosen when the page first opens.
+let currentArcana = null;
+let currentSuit = null;
 
 // Wide screens show the card beside the index.
 // Phones open the card on its own page instead.
@@ -15,7 +16,13 @@ function isWide() {
 }
 
 function currentView() {
-  return currentArcana === "Major" ? "Major" : "Minor-" + currentSuit;
+  if (currentArcana === "Major") {
+    return "Major";
+  }
+  if (currentArcana === "Minor") {
+    return currentSuit ? "Minor-" + currentSuit : "Minor";
+  }
+  return "";
 }
 
 // Read the web address, for example "#Minor-Cups/ace-of-cups",
@@ -23,7 +30,9 @@ function currentView() {
 const saved = location.hash.slice(1).split("/");
 const savedView = saved[0];
 const savedCard = saved[1];
-if (savedView.startsWith("Minor")) {
+if (savedView === "Major") {
+  currentArcana = "Major";
+} else if (savedView.startsWith("Minor")) {
   currentArcana = "Minor";
   const savedSuit = savedView.split("-")[1];
   if (savedSuit) {
@@ -40,8 +49,15 @@ function render() {
   });
   suitNav.style.display = currentArcana === "Minor" ? "flex" : "none";
 
-  history.replaceState(null, "", "#" + currentView());
+  const view = currentView();
+  history.replaceState(null, "", view ? "#" + view : location.pathname);
   detail.innerHTML = placeholder;
+
+  // Show no cards until an arcana (and, for Minor, a suit) is chosen.
+  if (!currentArcana || (currentArcana === "Minor" && !currentSuit)) {
+    list.innerHTML = "";
+    return;
+  }
 
   const shown = cards.filter(function (card) {
     if (currentArcana === "Major") {
