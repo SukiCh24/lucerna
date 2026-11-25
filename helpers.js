@@ -20,7 +20,22 @@ function cardView(card) {
   return card.arcana === "Major" ? "Major" : "Minor-" + card.suit;
 }
 
+// In the index, Minor cards only need their rank ("Two"),
+// because the suit is already chosen above.
+function cardIndexName(card) {
+  return card.arcana === "Major" ? card.name : card.name.split(" of ")[0];
+}
+
+const notWritten = '<span class="not-written">Not written yet</span>';
+
+function textOrPending(text) {
+  return text ? text : notWritten;
+}
+
 function keywordPills(words, extraClass) {
+  if (words.length === 0) {
+    return notWritten;
+  }
   return words.map(function (word) {
     return `<span class="keyword ${extraClass}">${word}</span>`;
   }).join("");
@@ -62,22 +77,22 @@ function cardDetailHTML(card) {
 
         <section class="card-section">
           <h3>Upright meaning</h3>
-          <p>${card.upright}</p>
+          <p>${textOrPending(card.upright)}</p>
         </section>
 
         <section class="card-section">
           <h3>Reversed meaning</h3>
-          <p>${card.reversed}</p>
+          <p>${textOrPending(card.reversed)}</p>
         </section>
 
         <section class="card-section">
           <h3>Symbolism</h3>
-          <p>${card.symbolism}</p>
+          <p>${textOrPending(card.symbolism)}</p>
         </section>
 
         <section class="card-section">
           <h3>Suit &amp; number</h3>
-          <p>${card.suitAndNumber}</p>
+          <p>${textOrPending(card.suitAndNumber)}</p>
         </section>
 
         <nav class="card-pager">

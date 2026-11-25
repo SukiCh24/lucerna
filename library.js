@@ -51,6 +51,7 @@ function render() {
   });
 
   list.innerHTML = "";
+  list.classList.toggle("minor", currentArcana === "Minor");
 
   if (shown.length === 0) {
     list.innerHTML = '<li class="empty">These cards are still being written.</li>';
@@ -62,8 +63,8 @@ function render() {
     list.innerHTML += `
       <li>
         <a class="card-link" href="card.html?card=${slug}" data-card="${slug}">
-          <span class="card-numeral">${cardNumeral(card)}</span>
-          <span>${card.name}</span>
+          ${card.arcana === "Major" ? `<span class="card-numeral">${cardNumeral(card)}</span>` : ""}
+          <span>${cardIndexName(card)}</span>
         </a>
       </li>`;
   });
