@@ -3,7 +3,29 @@ const detail = document.getElementById("detail-pane");
 const suitNav = document.getElementById("suit-nav");
 const arcanaButtons = document.querySelectorAll("[data-arcana]");
 const suitButtons = document.querySelectorAll("[data-suit]");
+const layout = document.querySelector(".library-layout");
 const placeholder = '<p class="detail-placeholder">Choose a card to reveal its meaning.</p>';
+const suitPlaceholder = '<p class="detail-placeholder">Choose a suit to see its cards.</p>';
+
+// Shown before anything is chosen: a short guide to the two halves of the deck.
+const introHTML = `
+  <div class="arcana-intro">
+    <h2>Two halves of the deck</h2>
+    <p>A tarot deck holds 78 cards, divided into two groups that speak in different voices.</p>
+
+    <h3>Major Arcana <span class="count">22 cards</span></h3>
+    <p>Numbered from 0 to XXI, from The Fool to The World. These cards speak of the big chapters of life: turning points, deep lessons, and forces larger than any single day. When one appears in a reading, it often points to something fundamental.</p>
+
+    <h3>Minor Arcana <span class="count">56 cards</span></h3>
+    <p>The everyday cards. They speak of specific situations, feelings, and choices, the details that fill our days. They come in four suits, each with ten numbered cards (Ace to Ten) and four court cards (Page, Knight, Queen, and King).</p>
+
+    <ul class="suit-notes">
+      <li><span>Wands</span> drive, passion, and creativity</li>
+      <li><span>Cups</span> emotions and relationships</li>
+      <li><span>Swords</span> thoughts, words, and conflict</li>
+      <li><span>Pentacles</span> work, money, and the body</li>
+    </ul>
+  </div>`;
 
 // Nothing is chosen when the page first opens.
 let currentArcana = null;
@@ -51,13 +73,24 @@ function render() {
 
   const view = currentView();
   history.replaceState(null, "", view ? "#" + view : location.pathname);
-  detail.innerHTML = placeholder;
+  layout.classList.toggle("choosing", !currentArcana);
 
-  // Show no cards until an arcana (and, for Minor, a suit) is chosen.
-  if (!currentArcana || (currentArcana === "Minor" && !currentSuit)) {
+  // Nothing chosen yet: big buttons on the left, the guide on the right
+  // (on phones, the guide appears under the buttons instead).
+  if (!currentArcana) {
+    detail.innerHTML = introHTML;
+    list.innerHTML = introHTML;
+    return;
+  }
+
+  // Minor Arcana chosen, but no suit yet
+  if (currentArcana === "Minor" && !currentSuit) {
+    detail.innerHTML = suitPlaceholder;
     list.innerHTML = "";
     return;
   }
+
+  detail.innerHTML = placeholder;
 
   const shown = cards.filter(function (card) {
     if (currentArcana === "Major") {
