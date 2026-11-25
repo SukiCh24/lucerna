@@ -17,7 +17,22 @@
 
     <nav class="home-menu">
       <a href="library.html" class="tab large">The Cards</a>
+
+      <label class="switch-row">
+        <input type="checkbox" id="reversed-toggle" class="switch-input">
+        <span class="switch" aria-hidden="true"></span>
+        <span>Reversed meanings</span>
+      </label>
     </nav>
   </header>
+
+  <script src="helpers.js"></script>
+  <script>
+    const reversedToggle = document.getElementById("reversed-toggle");
+    reversedToggle.checked = reversedEnabled();
+    reversedToggle.addEventListener("change", function () {
+      setReversed(reversedToggle.checked);
+    });
+  </script>
 </body>
 </html>

@@ -45,6 +45,24 @@ function cardLink(card, text) {
   return `<a href="card.html?card=${slugify(card.name)}" data-card="${slugify(card.name)}">${text}</a>`;
 }
 
+// The "Reversed meanings" switch on the home page.
+// The choice is remembered in this browser, even after closing it.
+function reversedEnabled() {
+  try {
+    return localStorage.getItem("lucerna-reversed") === "on";
+  } catch (error) {
+    return false;
+  }
+}
+
+function setReversed(isOn) {
+  try {
+    localStorage.setItem("lucerna-reversed", isOn ? "on" : "off");
+  } catch (error) {
+    // If the browser blocks saving, the switch simply won't be remembered.
+  }
+}
+
 // Builds everything shown for one card: image, keywords, meanings.
 function cardDetailHTML(card) {
   const group = cards.filter(function (c) {
@@ -57,6 +75,7 @@ function cardDetailHTML(card) {
   const eyebrow = card.arcana === "Major"
     ? "Major Arcana · " + romanNumerals[card.number]
     : "Minor Arcana · " + card.suit;
+  const showReversed = reversedEnabled();
   const artLabel = card.arcana === "Major"
     ? romanNumerals[card.number]
     : card.name.split(" of ")[0];
@@ -72,18 +91,22 @@ function cardDetailHTML(card) {
         <p class="keyword-label">Upright</p>
         <div class="keyword-row">${keywordPills(card.keywordsUpright, "")}</div>
 
+        ${showReversed ? `
         <p class="keyword-label">Reversed</p>
         <div class="keyword-row">${keywordPills(card.keywordsReversed, "reversed")}</div>
+        ` : ""}
 
         <section class="card-section">
           <h3>Upright meaning</h3>
           <p>${textOrPending(card.upright)}</p>
         </section>
 
+        ${showReversed ? `
         <section class="card-section">
           <h3>Reversed meaning</h3>
           <p>${textOrPending(card.reversed)}</p>
         </section>
+        ` : ""}
 
         <section class="card-section">
           <h3>Symbolism</h3>
