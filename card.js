@@ -6,11 +6,11 @@ const card = cards.find(function (c) {
 
 if (!card) {
   page.innerHTML = `
-    <a class="back-link" href="library.html">← The Cards</a>
+    <a class="back-link" href="library.html">← The Library</a>
     <p class="empty">This card could not be found.</p>`;
 } else {
   document.title = card.name + " · Lucerna";
   page.innerHTML =
-    `<a class="back-link" href="library.html#${cardView(card)}">← The Cards</a>` +
+    `<a class="back-link" href="library.html#${cardView(card)}">← The Library</a>` +
     cardDetailHTML(card);
 }
