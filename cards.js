@@ -40,11 +40,11 @@ const cards = [
       "unused talent",
       "manipulation"
     ],
-    "story": "",
-    "upright": "You already hold the tools you need. The Magician is about turning an idea into something real through focus, skill, and clear intention.",
+    "story": "In a garden full of red roses and white lilies, a young magician stands before a table set with four tools: a cup, a sword, a coin, and a wand, one for each suit of the tarot. He raises a wand to the sky with one hand and points to the earth with the other, as if drawing power down from above and planting it in the world. An infinity sign floats over his head, and a snake swallowing its own tail circles his waist, both signs of energy without end. His white robe speaks of pure intention, and the red cloak over it of the passion to act.",
+    "upright": "You already hold the tools you need. The Magician invites you to turn an idea into something real by gathering your skills, focusing your will, and taking the first deliberate step. Whatever you want to create begins with knowing clearly what you intend.",
     "reversed": "Talent left sitting on the table, energy pulled in too many directions, or skill used to trick rather than to create.",
     "symbolism": "One hand raises a wand toward the sky while the other points to the earth, drawing energy down into the world. On the table lie a cup, a coin, a sword, and a wand, the four suits of tarot, all ready for use. An infinity sign floats above his head.",
-    "suitAndNumber": "One is the number of will and first action, the single point where creation starts."
+    "suitAndNumber": "One is the number of will and first action, the single point where creation starts. Right after The Fool steps out into the world, The Magician brings the first lesson of the journey: you have power, and you can use it on purpose."
   },
   {
     "name": "The High Priestess",
