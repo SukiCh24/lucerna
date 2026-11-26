@@ -220,13 +220,50 @@ const cards = [
     "arcana": "Major",
     "number": 4,
     "suit": null,
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "structure",
+      "authority",
+      "stability",
+      "protection"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Emperor brings order to chaos. He invites you to take charge of your situation: set clear goals, make a plan, and build the structure that will hold your life steady. This is a card of responsibility and leadership, of protecting what you care about with firm boundaries. Its strength comes from discipline and consistency, not from force.",
+    "inReading": {
+      "love": "Stability and commitment, or a partner who shows love by being dependable. A good moment to talk about clear agreements and promises you can both keep.",
+      "work": "Take the lead, get organized, and set up systems that keep things running smoothly. A boss, mentor, or institution may play an important role, and long-term plans are favored over quick wins.",
+      "growth": "Build routines that support you, like a schedule, a budget, or healthy limits. Becoming your own steady ground is a form of self-respect."
+    },
+    "questions": [
+      "Where in my life do I need more structure or a clear plan?",
+      "What boundaries would protect what matters most to me?",
+      "Am I leading with steady strength, or trying to control everything?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The rams' heads on the throne",
+        "meaning": "drive, leadership, and the courage to push forward. The ram is also the sign of Aries, which the Golden Dawn (the group behind this deck's symbolism) linked to this card."
+      },
+      {
+        "symbol": "The ankh scepter",
+        "meaning": "the Egyptian symbol of life, showing his power to protect and sustain it."
+      },
+      {
+        "symbol": "The orb in his hand",
+        "meaning": "rule over the world, and responsibility for everything in his care."
+      },
+      {
+        "symbol": "The armor at his feet",
+        "meaning": "he is always ready to defend what he has built."
+      },
+      {
+        "symbol": "The bare mountains",
+        "meaning": "firm, lasting foundations, but a harsh landscape where little grows softly."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Four is stability, like the four corners of a solid foundation. After The Empress lets life grow freely, The Emperor teaches the traveler to give it shape, rules, and protection."
   },
   {
     "name": "The Hierophant",
