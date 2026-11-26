@@ -118,7 +118,12 @@ const cards = [
     "arcana": "Major",
     "number": 2,
     "suit": null,
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "intuition",
+      "inner knowing",
+      "mystery",
+      "stillness"
+    ],
     "keywordsReversed": [],
     "story": "",
     "upright": "The High Priestess asks you to slow down and listen to what you already sense. Not every answer comes from thinking things through; some arrive as a quiet feeling, a dream, or a hunch you can't fully explain yet. This card invites you to trust that inner knowing and to be patient with what is still hidden. Sometimes the wisest move is to wait, watch, and say less.",
