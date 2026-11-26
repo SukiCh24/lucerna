@@ -85,7 +85,9 @@ function cardDetailHTML(card) {
   return `
     <div class="card-detail">
       <div class="card-top">
-        <div class="card-art">${artLabel}</div>
+        ${card.image
+          ? `<div class="card-art has-image"><img src="${card.image}" alt="${card.name} card"></div>`
+          : `<div class="card-art">${artLabel}</div>`}
 
         <div class="card-heading">
           <p class="card-eyebrow">${eyebrow}</p>

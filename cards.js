@@ -26,6 +26,7 @@ const cards = [
   },
   {
     "name": "The Magician",
+    "image": "images/the-magician.svg",
     "arcana": "Major",
     "number": 1,
     "suit": null,
