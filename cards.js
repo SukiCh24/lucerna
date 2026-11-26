@@ -121,10 +121,42 @@ const cards = [
     "keywordsUpright": [],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The High Priestess asks you to slow down and listen to what you already sense. Not every answer comes from thinking things through; some arrive as a quiet feeling, a dream, or a hunch you can't fully explain yet. This card invites you to trust that inner knowing and to be patient with what is still hidden. Sometimes the wisest move is to wait, watch, and say less.",
+    "inReading": {
+      "love": "Something is unspoken or not yet revealed, in the other person or in you. Pay attention to what you feel beneath the words, and give the connection time to show its depth.",
+      "work": "Not the moment for a bold move. Gather information quietly, notice what others overlook, and trust your instincts about people and situations.",
+      "growth": "A call to spend time alone with your own thoughts, through journaling, meditation, or simple quiet, and to take your intuition seriously."
+    },
+    "questions": [
+      "What do I already know deep down but haven't admitted yet?",
+      "Where would it help to listen more and speak less?",
+      "Am I trusting my own inner voice, or only other people's opinions?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The two pillars, B and J",
+        "meaning": "named Boaz and Jachin after the pillars of Solomon's Temple, one dark and one light. She sits between them, at the balance point of opposites."
+      },
+      {
+        "symbol": "The veil of pomegranates and palms",
+        "meaning": "a curtain over hidden knowledge, waiting to be discovered."
+      },
+      {
+        "symbol": "The TORA scroll",
+        "meaning": "wisdom she holds but doesn't fully show. Some read it as the Torah (sacred law); others see the letters of the word “tarot.”"
+      },
+      {
+        "symbol": "The moon crown and the crescent at her feet",
+        "meaning": "intuition, dreams, and the cycles of the unseen world."
+      },
+      {
+        "symbol": "The cross on her chest",
+        "meaning": "balance, where the spiritual and the everyday world meet."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Two is balance and receptivity, the quiet partner to The Magician's one. Where The Magician teaches the traveler to act, The High Priestess teaches them to be still and listen."
   },
   {
     "name": "The Empress",
