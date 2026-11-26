@@ -79,9 +79,84 @@ function setReversed(isOn) {
   }
 }
 
-// Builds everything shown for one card: image, keywords, story, meanings.
-// Section order: Story, Meaning, then Number & journey (Major) or Suit & number (Minor).
-// Until a card's story is written, its old symbolism text is shown under Story.
+// ---------- Foldable sections on the card page ----------
+// Each section can be folded open or closed by tapping its title.
+// These are the starting states; after that, the reader's own choice is
+// remembered in this browser, so the next card opens the same way.
+const sectionDefaults = {
+  meaning: true,
+  reversed: true,
+  reading: true,
+  questions: true,
+  picture: false,
+  number: false
+};
+
+function sectionOpen(id) {
+  try {
+    const saved = localStorage.getItem("lucerna-fold-" + id);
+    if (saved === "open") return true;
+    if (saved === "closed") return false;
+  } catch (error) {
+    // If the browser blocks saving, the starting states are used.
+  }
+  return sectionDefaults[id];
+}
+
+document.addEventListener("toggle", function (event) {
+  const section = event.target;
+  if (section.matches && section.matches("details.card-section[data-section]")) {
+    try {
+      localStorage.setItem("lucerna-fold-" + section.dataset.section, section.open ? "open" : "closed");
+    } catch (error) {
+      // Not remembered; nothing else breaks.
+    }
+  }
+}, true);
+
+function foldSection(id, title, inner) {
+  return `
+        <details class="card-section" data-section="${id}"${sectionOpen(id) ? " open" : ""}>
+          <summary><h3>${title}</h3></summary>
+          <div class="card-section-body">${inner}</div>
+        </details>`;
+}
+
+function inReadingHTML(card) {
+  const r = card.inReading;
+  if (!r) {
+    return `<p>${notWritten}</p>`;
+  }
+  return `<ul class="section-list">
+            <li><strong>Love:</strong> ${textOrPending(r.love)}</li>
+            <li><strong>Work:</strong> ${textOrPending(r.work)}</li>
+            <li><strong>Personal growth:</strong> ${textOrPending(r.growth)}</li>
+          </ul>`;
+}
+
+function questionsHTML(card) {
+  if (!card.questions || card.questions.length === 0) {
+    return `<p>${notWritten}</p>`;
+  }
+  return `<ul class="section-list">${card.questions.map(function (q) {
+    return `<li>${q}</li>`;
+  }).join("")}</ul>`;
+}
+
+// Cards written in the old format still have a "symbolism" paragraph;
+// it is shown here until the card gets its list of symbols.
+function inPictureHTML(card) {
+  if (card.inPicture && card.inPicture.length > 0) {
+    return `<ul class="section-list">${card.inPicture.map(function (item) {
+      return `<li><strong>${item.symbol}:</strong> ${item.meaning}</li>`;
+    }).join("")}</ul>`;
+  }
+  return `<p>${textOrPending(card.symbolism)}</p>`;
+}
+
+// Builds everything shown for one card: image, keywords, and the foldable sections.
+// Section order: Meaning, (Reversed meaning), In a reading, Questions to ask yourself,
+// In the picture, then Number & journey (Major) or Suit & number (Minor).
 function cardDetailHTML(card) {
   const group = cards.filter(function (c) {
     return c.arcana === card.arcana && c.suit === card.suit;
@@ -117,27 +192,12 @@ function cardDetailHTML(card) {
       </div>
 
       <div class="card-body">
-        <section class="card-section">
-          <h3>Story</h3>
-          <p>${textOrPending(card.story || card.symbolism)}</p>
-        </section>
-
-        <section class="card-section">
-          <h3>${showReversed ? "Upright meaning" : "Meaning"}</h3>
-          <p>${textOrPending(card.upright)}</p>
-        </section>
-
-        ${showReversed ? `
-        <section class="card-section">
-          <h3>Reversed meaning</h3>
-          <p>${textOrPending(card.reversed)}</p>
-        </section>
-        ` : ""}
-
-        <section class="card-section">
-          <h3>${card.arcana === "Major" ? "Number &amp; journey" : "Suit &amp; number"}</h3>
-          <p>${textOrPending(card.suitAndNumber)}</p>
-        </section>
+        ${foldSection("meaning", showReversed ? "Upright meaning" : "Meaning", `<p>${textOrPending(card.upright)}</p>`)}
+        ${showReversed ? foldSection("reversed", "Reversed meaning", `<p>${textOrPending(card.reversed)}</p>`) : ""}
+        ${foldSection("reading", "In a reading", inReadingHTML(card))}
+        ${foldSection("questions", "Questions to ask yourself", questionsHTML(card))}
+        ${foldSection("picture", "In the picture", inPictureHTML(card))}
+        ${foldSection("number", card.arcana === "Major" ? "Number &amp; journey" : "Suit &amp; number", `<p>${textOrPending(card.suitAndNumber)}</p>`)}
 
         <nav class="card-pager">
           <span>${previous ? cardLink(previous, "← " + previous.name) : ""}</span>

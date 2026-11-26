@@ -726,8 +726,52 @@ h1 {
   border-color: rgba(201, 138, 122, 0.3);
 }
 
+/* ---------- Foldable card sections ----------
+   Each section is a <details> box: tap the title to fold it open or closed.
+   A thin line separates the sections; the small chevron shows the state. */
 .card-section {
-  margin-top: 36px;
+  border-top: 1px solid var(--faint-line);
+}
+
+.card-body > .card-section:first-child {
+  margin-top: 28px;
+}
+
+.card-section summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 44px;
+  padding: 14px 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.card-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.card-section summary::after {
+  content: "";
+  flex: none;
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+  border-right: 1px solid var(--silver);
+  border-bottom: 1px solid var(--silver);
+  transform: translateY(-3px) rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.card-section[open] summary::after {
+  transform: translateY(2px) rotate(-135deg);
+}
+
+.card-section summary:focus-visible {
+  outline: 1px solid var(--silver);
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
 .card-section h3 {
@@ -735,7 +779,42 @@ h1 {
   font-weight: 400;
   font-size: 1.5rem;
   color: #f4ede0;
-  margin: 0 0 8px;
+  margin: 0;
+}
+
+.card-section-body {
+  padding: 0 0 22px;
+}
+
+.section-list {
+  margin: 0;
+  padding-left: 1.1em;
+  max-width: 65ch;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section-list li + li {
+  margin-top: 10px;
+}
+
+.section-list li::marker {
+  color: var(--moon-blue);
+}
+
+.section-list strong {
+  font-weight: 500;
+  color: #f4ede0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-section summary::after {
+    transition: none;
+  }
 }
 
 /* Card meaning text: Crimson Pro Light, a slender book-like serif.

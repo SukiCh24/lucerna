@@ -20,10 +20,42 @@ const cards = [
       "poor timing"
     ],
     "story": "On a bright morning, a young traveler strolls along a high cliff, eyes lifted to the sky instead of the edge just ahead. Over one shoulder hangs a small bag on a stick, holding everything they own, none of it yet put to the test. In the other hand is a white rose, a sign of innocence. A little dog leaps at their heels: some say it's a loyal friend cheering them on, others say it's barking a warning to look down. Far behind rise snowy mountains, the long road still to come.",
-    "upright": "A leap into the unknown with an open heart. The Fool invites you to begin something new before you can see exactly where it leads, trusting that the path will appear as you walk it.",
+    "upright": "The Fool is the start of every journey: the moment you step forward before you know where the road leads. It invites you to meet something new with curiosity instead of fear, trusting that you'll learn what you need along the way. You don't need a perfect plan, only the willingness to begin. Just remember that trust and carelessness are different things, so keep one eye on the path.",
+    "inReading": {
+      "love": "A fresh start, a new connection, or a chance to bring playfulness back into a relationship. Let it unfold without rushing to define it.",
+      "work": "A new job, project, or direction that excites you even if you feel unready. Your beginner's eyes may notice what others have stopped seeing.",
+      "growth": "Permission to try something you've never done, and to be a beginner without feeling ashamed of it."
+    },
+    "questions": [
+      "What would I start if I weren't afraid of getting it wrong?",
+      "Where am I waiting for a certainty that may never come?",
+      "Is the step in front of me a brave leap or a careless one?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The cliff edge",
+        "meaning": "the unknown ahead, and the risk of not looking where you step."
+      },
+      {
+        "symbol": "The white rose",
+        "meaning": "innocence and pure intentions."
+      },
+      {
+        "symbol": "The small bag",
+        "meaning": "everything you carry with you, not yet tested by experience."
+      },
+      {
+        "symbol": "The little dog",
+        "meaning": "a loyal companion, or a warning to watch your step. Readers disagree."
+      },
+      {
+        "symbol": "The bright sun",
+        "meaning": "optimism, and a good moment to begin."
+      }
+    ],
     "reversed": "Either leaping without looking, or standing at the edge too afraid to leap at all. A sign to check your timing, or to notice what fear is holding you back from a fresh start.",
     "symbolism": "A young traveler steps toward a cliff edge, eyes on the sky. The white rose stands for innocence. The small bag holds everything needed, though none of it has been tested yet. The little dog is read by some as a loyal companion, and by others as a warning to watch your step.",
-    "suitAndNumber": "Zero is pure potential, the moment before anything begins. The Fool is the traveler who journeys through all the other Major Arcana cards."
+    "suitAndNumber": "Zero is pure potential, the moment before anything begins. The Fool is the traveler who walks through all the other Major Arcana, meeting each card as a lesson along the way."
   },
   {
     "name": "The Magician",
