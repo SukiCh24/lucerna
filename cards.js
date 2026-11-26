@@ -78,6 +78,7 @@ const cards = [
   },
   {
     "name": "The Emperor",
+    "image": "images/the-emperor-lucerna-open.png",
     "arcana": "Major",
     "number": 4,
     "suit": null,
