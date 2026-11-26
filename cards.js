@@ -64,6 +64,7 @@ const cards = [
   },
   {
     "name": "The Empress",
+    "image": "images/the-empress-lucerna-open.png",
     "arcana": "Major",
     "number": 3,
     "suit": null,
