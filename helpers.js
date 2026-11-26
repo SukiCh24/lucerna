@@ -37,7 +37,7 @@ function cardFrameSVG(card) {
     <rect width="350" height="600" rx="18" fill="#0A0A0A"/>
     <rect x="0.5" y="0.5" width="349" height="599" rx="17.5" fill="none" stroke="#E6DCC6" stroke-opacity="0.3"/>
     <rect x="16" y="16" width="318" height="568" rx="10" fill="none" stroke="#E6DCC6" stroke-width="1"/>
-    <text x="175" y="58" text-anchor="middle" fill="#E6DCC6" font-family="'Cormorant Garamond', serif" font-size="22">${numeral}</text>
+    <text x="175" y="58" text-anchor="middle" fill="#E6DCC6" font-family="'Cormorant Garamond', serif" font-size="22" style="font-variant-numeric: lining-nums">${numeral}</text>
     <text x="175" y="560" text-anchor="middle" fill="#E6DCC6" font-family="'Cormorant Garamond', serif" font-size="17" letter-spacing="${spacing}">${name}</text>
   </svg>`;
 }

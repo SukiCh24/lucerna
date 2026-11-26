@@ -4,6 +4,7 @@
 const cards = [
   {
     "name": "The Fool",
+    "image": "images/the-fool-lucerna-open.png",
     "arcana": "Major",
     "number": 0,
     "suit": null,
