@@ -50,6 +50,7 @@ const cards = [
   },
   {
     "name": "The High Priestess",
+    "image": "images/the-high-priestess-lucerna-open.png",
     "arcana": "Major",
     "number": 2,
     "suit": null,
