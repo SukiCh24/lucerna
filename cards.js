@@ -169,13 +169,50 @@ const cards = [
     "arcana": "Major",
     "number": 3,
     "suit": null,
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "abundance",
+      "nurturing",
+      "creativity",
+      "nature"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Empress is life in full bloom. She invites you to nurture what you love, whether that's a project, a relationship, a home, or yourself, and to let it grow at its own natural pace. This is a card of comfort, beauty, and pleasure in the senses: good food, rest, time in nature, and making something with your hands. When you care for things patiently, they flourish.",
+    "inReading": {
+      "love": "Warmth, affection, and a relationship that feels nourishing. It can point to a deepening commitment and, for some, to family or a new life arriving.",
+      "work": "Creative projects thrive now. Your ideas are fertile, so give them time and care, and expect growth that builds steadily rather than all at once.",
+      "growth": "Treat yourself the way you'd treat something you love: rest, eat well, spend time outdoors, and make room for pleasure without guilt."
+    },
+    "questions": [
+      "What in my life needs more care and patience to grow?",
+      "Am I nurturing myself as well as I nurture others?",
+      "Where could I let more beauty, pleasure, or rest into my days?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The crown of twelve stars",
+        "meaning": "the twelve months of the year and the cycles of nature. Some readers link the stars to the twelve signs of the zodiac instead."
+      },
+      {
+        "symbol": "The heart-shaped shield with the Venus symbol",
+        "meaning": "love, beauty, and the feminine."
+      },
+      {
+        "symbol": "The field of ripe wheat",
+        "meaning": "abundance, and a harvest ready to gather."
+      },
+      {
+        "symbol": "The forest and the flowing stream",
+        "meaning": "nature's life force, always growing and renewing itself."
+      },
+      {
+        "symbol": "The scepter",
+        "meaning": "her gentle authority over the living world."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Three is creation, what is born when two come together. After The High Priestess's quiet inner world, The Empress shows the traveler how life grows and flourishes in the world around them."
   },
   {
     "name": "The Emperor",
