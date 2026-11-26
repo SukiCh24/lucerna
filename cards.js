@@ -75,10 +75,42 @@ const cards = [
       "manipulation"
     ],
     "story": "In a garden full of red roses and white lilies, a young magician stands before a table set with four tools: a cup, a sword, a coin, and a wand, one for each suit of the tarot. He raises a wand to the sky with one hand and points to the earth with the other, as if drawing power down from above and planting it in the world. An infinity sign floats over his head, and a snake swallowing its own tail circles his waist, both signs of energy without end. His white robe speaks of pure intention, and the red cloak over it of the passion to act.",
-    "upright": "You already hold the tools you need. The Magician invites you to turn an idea into something real by gathering your skills, focusing your will, and taking the first deliberate step. Whatever you want to create begins with knowing clearly what you intend.",
+    "upright": "The Magician tells you that you already have what you need to make something happen. Your skills, ideas, and energy are all within reach; what this card asks for now is focus and a clear intention. When you know exactly what you want and act on it with purpose, ideas begin to turn into real things. This is a card of doing, not just dreaming.",
+    "inReading": {
+      "love": "A time to show up with confidence and say clearly what you want. Charm and good conversation are on your side, as long as they come from honesty.",
+      "work": "You have the skills to start or lead something. Pitch the idea, take the first step, and put your talents to use instead of waiting for permission.",
+      "growth": "Take stock of the tools you already have, from talents and knowledge to the people who support you, and decide what you want to build with them."
+    },
+    "questions": [
+      "What do I truly want to create right now?",
+      "Which of my skills or resources am I not using yet?",
+      "What one action today would turn my idea into something real?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "One hand raised, one pointing down",
+        "meaning": "drawing energy from above into the everyday world, often summed up as “as above, so below.”"
+      },
+      {
+        "symbol": "The four tools on the table",
+        "meaning": "a cup, a sword, a coin, and a wand, the four suits of tarot, all ready to use."
+      },
+      {
+        "symbol": "The infinity sign",
+        "meaning": "endless potential and energy."
+      },
+      {
+        "symbol": "The snake biting its own tail (his belt)",
+        "meaning": "eternity and constant renewal."
+      },
+      {
+        "symbol": "The roses and lilies",
+        "meaning": "passion and desire (roses) balanced by pure thought (lilies)."
+      }
+    ],
     "reversed": "Talent left sitting on the table, energy pulled in too many directions, or skill used to trick rather than to create.",
     "symbolism": "One hand raises a wand toward the sky while the other points to the earth, drawing energy down into the world. On the table lie a cup, a coin, a sword, and a wand, the four suits of tarot, all ready for use. An infinity sign floats above his head.",
-    "suitAndNumber": "One is the number of will and first action, the single point where creation starts. Right after The Fool steps out into the world, The Magician brings the first lesson of the journey: you have power, and you can use it on purpose."
+    "suitAndNumber": "One is the number of will and first action, the single point where creation starts. Right after The Fool sets out, The Magician brings the first lesson of the journey: you have power, and you can use it on purpose."
   },
   {
     "name": "The High Priestess",
