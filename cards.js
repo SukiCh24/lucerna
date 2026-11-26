@@ -92,6 +92,7 @@ const cards = [
   },
   {
     "name": "The Hierophant",
+    "image": "images/the-hierophant-lucerna-open.png",
     "arcana": "Major",
     "number": 5,
     "suit": null,
