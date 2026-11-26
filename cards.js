@@ -244,6 +244,7 @@ const cards = [
   },
   {
     "name": "The Lovers",
+    "image": "images/the-lovers-lucerna-open.png",
     "arcana": "Major",
     "number": 6,
     "suit": null,
