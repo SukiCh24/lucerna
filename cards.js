@@ -351,6 +351,7 @@ const cards = [
   },
   {
     "name": "Justice",
+    "image": "images/justice-lucerna-open.png",
     "arcana": "Major",
     "number": 11,
     "suit": null,
