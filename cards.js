@@ -2690,6 +2690,7 @@ const cards = [
   },
   {
     "name": "Ace of Pentacles",
+    "image": "images/ace-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 1,
     "suit": "Pentacles",
@@ -2703,6 +2704,7 @@ const cards = [
   },
   {
     "name": "Two of Pentacles",
+    "image": "images/two-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 2,
     "suit": "Pentacles",
@@ -2716,6 +2718,7 @@ const cards = [
   },
   {
     "name": "Three of Pentacles",
+    "image": "images/three-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 3,
     "suit": "Pentacles",
@@ -2729,6 +2732,7 @@ const cards = [
   },
   {
     "name": "Four of Pentacles",
+    "image": "images/four-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 4,
     "suit": "Pentacles",
@@ -2742,6 +2746,7 @@ const cards = [
   },
   {
     "name": "Five of Pentacles",
+    "image": "images/five-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 5,
     "suit": "Pentacles",
@@ -2755,6 +2760,7 @@ const cards = [
   },
   {
     "name": "Six of Pentacles",
+    "image": "images/six-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 6,
     "suit": "Pentacles",
@@ -2768,6 +2774,7 @@ const cards = [
   },
   {
     "name": "Seven of Pentacles",
+    "image": "images/seven-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 7,
     "suit": "Pentacles",
@@ -2781,6 +2788,7 @@ const cards = [
   },
   {
     "name": "Eight of Pentacles",
+    "image": "images/eight-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 8,
     "suit": "Pentacles",
@@ -2794,6 +2802,7 @@ const cards = [
   },
   {
     "name": "Nine of Pentacles",
+    "image": "images/nine-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 9,
     "suit": "Pentacles",
@@ -2807,6 +2816,7 @@ const cards = [
   },
   {
     "name": "Ten of Pentacles",
+    "image": "images/ten-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 10,
     "suit": "Pentacles",
@@ -2820,6 +2830,7 @@ const cards = [
   },
   {
     "name": "Page of Pentacles",
+    "image": "images/page-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 11,
     "suit": "Pentacles",
@@ -2833,6 +2844,7 @@ const cards = [
   },
   {
     "name": "Knight of Pentacles",
+    "image": "images/knight-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 12,
     "suit": "Pentacles",
@@ -2846,6 +2858,7 @@ const cards = [
   },
   {
     "name": "Queen of Pentacles",
+    "image": "images/queen-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 13,
     "suit": "Pentacles",
@@ -2859,6 +2872,7 @@ const cards = [
   },
   {
     "name": "King of Pentacles",
+    "image": "images/king-of-pentacles-lucerna-open.png",
     "arcana": "Minor",
     "number": 14,
     "suit": "Pentacles",
