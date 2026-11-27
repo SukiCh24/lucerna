@@ -3180,13 +3180,50 @@ const cards = [
     "arcana": "Minor",
     "number": 1,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "new opportunity",
+      "prosperity",
+      "solid beginnings",
+      "abundance"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Ace of Pentacles is a seed placed in your open hand. It invites you to notice a real, practical opportunity and plant it with care. This can look like a job offer, a course you sign up for, or the first deposit in a savings account. The gift is real, but it only grows if you tend it.",
+    "inReading": {
+      "love": "A connection with solid ground under it, whether it's new or one you already share. Small, practical acts of care say more now than grand gestures.",
+      "work": "A new job, a raise, a client, or a project with real potential. Take the first concrete step while the door is open.",
+      "growth": "Invest in something that builds your life over time, like your health, a skill, or a savings habit. Start small and start now."
+    },
+    "questions": [
+      "What practical opportunity is in front of me right now?",
+      "What would it take to plant this seed and help it grow?",
+      "Am I ready to tend this gift, or just hoping it grows on its own?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The hand from the cloud",
+        "meaning": "a gift offered from beyond yourself, as on all four Aces."
+      },
+      {
+        "symbol": "The single pentacle",
+        "meaning": "the whole suit in seed form, holding money, work, the body, and home."
+      },
+      {
+        "symbol": "The garden",
+        "meaning": "a cultivated place, where things grow because someone tends them."
+      },
+      {
+        "symbol": "The arch of roses",
+        "meaning": "a doorway; some readers see a way out into the wider world, others a gate into new growth."
+      },
+      {
+        "symbol": "The mountain beyond the arch",
+        "meaning": "the higher goals a practical start can lead to."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Aces are the seed, the suit's energy in its purest form. In Pentacles, that means a first real chance to build something solid: money, work, health, or a home."
   },
   {
     "name": "Two of Pentacles",
@@ -3194,13 +3231,46 @@ const cards = [
     "arcana": "Minor",
     "number": 2,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "balance",
+      "juggling",
+      "adaptability",
+      "priorities"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Two of Pentacles is a dance with two things in the air. It invites you to keep your balance while juggling: work and rest, bills and savings, two jobs or two demands. This can look like a busy week handled with a light step, shifting your attention as each thing needs it. The dance works while you keep the rhythm; take on one more ball and it may all fall.",
+    "inReading": {
+      "love": "Making room for love in a full life, whether that means fitting a first date around work or sharing the load at home. Flexibility and a sense of humor help more than a perfect schedule.",
+      "work": "Several tasks or income streams at once. Set priorities, stay flexible, and say no before juggling turns into dropping.",
+      "growth": "Find a rhythm that holds your many roles without draining you. Notice which things truly need your hands right now."
+    },
+    "questions": [
+      "What am I juggling right now?",
+      "Where can I bend instead of break?",
+      "Am I keeping things in balance, or taking on more than I can carry?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The loop around the pentacles",
+        "meaning": "a figure eight lying on its side, the infinity sign, for endless motion and exchange. The same sign floats above The Magician's head."
+      },
+      {
+        "symbol": "The tall hat",
+        "meaning": "a playful, almost jester-like figure, the card's light touch."
+      },
+      {
+        "symbol": "The ships on the waves",
+        "meaning": "life rising and falling around him, like plans riding the ups and downs."
+      },
+      {
+        "symbol": "The dancing step",
+        "meaning": "balance found by moving, not by standing still."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Two is choice and balance. In Pentacles, that means juggling practical demands, keeping money, time, and energy moving without letting any one of them fall."
   },
   {
     "name": "Three of Pentacles",
@@ -3208,13 +3278,46 @@ const cards = [
     "arcana": "Minor",
     "number": 3,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "teamwork",
+      "craftsmanship",
+      "collaboration",
+      "recognition"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Three of Pentacles is good work built together. It invites you to bring your skill to a shared project and listen to people who see it from other angles. This can look like a team meeting where ideas click, a mentor's feedback, or a client who values your craft. Great work needs your talent and other people's input, so don't hold back either one.",
+    "inReading": {
+      "love": "Building something together, like a home, a routine, or shared plans, or meeting someone through work or a common project. Respect for each other's strengths keeps it steady.",
+      "work": "Collaboration, learning from experts, and early recognition for quality. Ask for feedback and share your plans openly.",
+      "growth": "Practice your craft where others can see it. Being seen while you're still learning is part of how you get good."
+    },
+    "questions": [
+      "Who could help me make this better?",
+      "What skill am I ready to show?",
+      "Am I open to other people's input, or trying to do it all alone?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The cathedral arch",
+        "meaning": "a lasting work that needs many hands to build."
+      },
+      {
+        "symbol": "The three pentacles in the arch",
+        "meaning": "set in a triangle; some readers see body, mind, and spirit, others the three people working together."
+      },
+      {
+        "symbol": "The craftsman on the bench",
+        "meaning": "the skilled worker, raised up to do the job."
+      },
+      {
+        "symbol": "The two figures beside him",
+        "meaning": "many readers see a monk and an architect holding the plans, or a patron; readers disagree about who they are."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Three is growth, the first results of a plan. In Pentacles, that means skill turning into something real, shown to others and shaped by their feedback."
   },
   {
     "name": "Four of Pentacles",
@@ -3222,13 +3325,46 @@ const cards = [
     "arcana": "Minor",
     "number": 4,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "security",
+      "saving",
+      "control",
+      "holding on"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Four of Pentacles holds on tight. It invites you to protect what you've built: save money, guard your energy, and set firm limits. This can look like a careful budget, a stable routine, or saying no to spending you'd regret. Security is good, but a grip that's too tight leaves no room for anything new to come in.",
+    "inReading": {
+      "love": "Wanting safety in love, which can mean steady commitment or holding back for fear of getting hurt. Notice where caution protects you and where it keeps someone at arm's length.",
+      "work": "A time to secure your position and manage resources carefully. Make sure caution isn't stopping you from sharing ideas or growing.",
+      "growth": "Look at what you cling to, whether money, habits, or control. Some of it keeps you safe, and some may be ready to loosen."
+    },
+    "questions": [
+      "What do I want to protect right now?",
+      "What would help me feel truly secure?",
+      "Am I keeping things safe, or holding on so tightly that nothing can move?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The pentacle hugged to his chest",
+        "meaning": "holding on to what he has, close to the heart."
+      },
+      {
+        "symbol": "The pentacles under his feet",
+        "meaning": "he stands on his wealth; it grounds him, but it also keeps him from walking anywhere."
+      },
+      {
+        "symbol": "The pentacle on his crown",
+        "meaning": "thoughts ruled by money and security."
+      },
+      {
+        "symbol": "The city behind him",
+        "meaning": "the wider world at his back; some readers see a careful steward, others a miser."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Four is stability. In Pentacles, that means security built and kept: savings, a steady base, and the urge to protect them."
   },
   {
     "name": "Five of Pentacles",
@@ -3236,13 +3372,50 @@ const cards = [
     "arcana": "Minor",
     "number": 5,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "hardship",
+      "loss",
+      "feeling left out",
+      "seeking help"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Five of Pentacles walks through the cold. It points to a hard time, like money worries, poor health, or feeling shut out, and invites you to look for help that may be closer than it seems. This can look like a tight month, a setback at work, or a stretch of carrying a problem alone. Shelter is often nearby: sometimes the hardest step is asking to come inside.",
+    "inReading": {
+      "love": "Feeling left out in the cold, or two people getting through a hard season side by side. Support, not perfection, is what matters now.",
+      "work": "Money strain, a lost job, or feeling overlooked. Reach out for advice, resources, or help instead of struggling in silence.",
+      "growth": "Be honest about what you need. Accepting support is a strength, not a failure."
+    },
+    "questions": [
+      "Where do I feel left out in the cold?",
+      "What help is available that I haven't asked for?",
+      "Am I facing this hardship, or walking past a door that's open to me?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The stained-glass window",
+        "meaning": "shelter and help, close by but unnoticed, with five pentacles set in the glass."
+      },
+      {
+        "symbol": "The falling snow",
+        "meaning": "a hard season, cold and exposed."
+      },
+      {
+        "symbol": "The figure on crutches",
+        "meaning": "struggle of the body; some readers see the bell at his neck as the kind once worn by the sick, who were kept apart from others."
+      },
+      {
+        "symbol": "The woman wrapped in her shawl",
+        "meaning": "head down, so focused on the hardship that she walks past the window."
+      },
+      {
+        "symbol": "The two walking together",
+        "meaning": "even in hard times, they aren't alone."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Five is challenge, the shake-up after stability. In Pentacles, that means losing practical security, through money, health, or a place to belong."
   },
   {
     "name": "Six of Pentacles",
@@ -3250,13 +3423,46 @@ const cards = [
     "arcana": "Minor",
     "number": 6,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "generosity",
+      "giving and receiving",
+      "fairness",
+      "sharing"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Six of Pentacles keeps resources moving. It invites you to give where you can and accept help where you need it, with fairness on both sides. This can look like lending a hand, paying a kindness forward, or accepting a loan or a mentor's support. Generosity is healthiest when it doesn't keep anyone small.",
+    "inReading": {
+      "love": "Care that flows both ways, or a moment to notice who gives and who takes in your closest bonds. Kindness offered freely, and accepted freely, builds trust.",
+      "work": "Fair pay, a raise, a sponsor, or a chance to support someone else. Check that the exchange feels balanced.",
+      "growth": "Practice both sides of the exchange: giving without strings, and receiving without shame."
+    },
+    "questions": [
+      "Where can I share what I have?",
+      "Am I letting myself receive?",
+      "Is this exchange fair, or does it leave one side in someone's debt?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The scales in his hand",
+        "meaning": "fairness, weighing what to give and to whom. Justice holds scales too."
+      },
+      {
+        "symbol": "The coins falling into an open hand",
+        "meaning": "generosity in action."
+      },
+      {
+        "symbol": "The two kneeling figures",
+        "meaning": "one receives now while the other waits; some readers ask why only one is given to."
+      },
+      {
+        "symbol": "The six pentacles above",
+        "meaning": "the resources he has to share."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Six is harmony after struggle. In Pentacles, that means resources flowing again, from those who have to those who need, after the hardship of the Five."
   },
   {
     "name": "Seven of Pentacles",
@@ -3264,13 +3470,46 @@ const cards = [
     "arcana": "Minor",
     "number": 7,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "patience",
+      "long-term investment",
+      "assessment",
+      "slow growth"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Seven of Pentacles pauses to look at the harvest. It invites you to step back from steady work and ask whether it's growing the way you hoped. This can look like checking your savings, reviewing a project, or noticing that a slow habit is finally paying off. Patience is part of the work, and so is an honest look at what still deserves your time.",
+    "inReading": {
+      "love": "Love that has been growing slowly, or a moment to ask whether a connection is getting the care it needs. Some things take seasons to bloom.",
+      "work": "Reviewing progress on a long project or investment. Decide where to keep going and where to change course.",
+      "growth": "Notice the slow progress you might be overlooking. Then ask whether your effort is planted in the right place."
+    },
+    "questions": [
+      "What have I been patiently tending?",
+      "What is it showing me so far?",
+      "Am I waiting wisely, or holding on to something that isn't growing?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The man leaning on his hoe",
+        "meaning": "a pause in the work, to rest and to judge."
+      },
+      {
+        "symbol": "The pentacles on the vine",
+        "meaning": "results that ripen slowly, like a crop."
+      },
+      {
+        "symbol": "The single pentacle at his feet",
+        "meaning": "some readers see what he has already harvested, others what he's still deciding about."
+      },
+      {
+        "symbol": "The tended ground",
+        "meaning": "steady effort over a whole season."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Seven is a test of how much something matters. In Pentacles, that means checking whether a long investment of time and effort is worth continuing."
   },
   {
     "name": "Eight of Pentacles",
@@ -3278,13 +3517,50 @@ const cards = [
     "arcana": "Minor",
     "number": 8,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "practice",
+      "craftsmanship",
+      "diligence",
+      "mastery"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Eight of Pentacles works on one pentacle at a time. It invites you to practice your craft with focus and patience, getting a little better with each try. This can look like studying, repeating a skill until it feels natural, or taking pride in a job done carefully. Mastery comes from steady repetition, as long as you keep learning and don't just repeat.",
+    "inReading": {
+      "love": "Love shown through effort and attention, or a season of working on yourself so you're ready for what comes. Steady care builds something that lasts.",
+      "work": "Training, an apprenticeship, or a stretch of focused, detailed work. Do it well, and your skill will speak for itself.",
+      "growth": "Pick one skill and practice it a little every day. Small, repeated effort adds up."
+    },
+    "questions": [
+      "What skill am I building right now?",
+      "Where can I give my full attention to the task in front of me?",
+      "Am I growing through practice, or repeating the same thing without learning?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The craftsman at his bench",
+        "meaning": "a person absorbed in the work; some readers see the Three's craftsman at an earlier stage, still an apprentice."
+      },
+      {
+        "symbol": "The hammer and chisel",
+        "meaning": "practice by hand, one stroke at a time."
+      },
+      {
+        "symbol": "The pentacles on the post",
+        "meaning": "finished work, the results of practice shown in a row."
+      },
+      {
+        "symbol": "The pentacle on the ground",
+        "meaning": "one still waiting its turn, or one that didn't come out right; readers disagree."
+      },
+      {
+        "symbol": "The town in the distance",
+        "meaning": "he has set the world aside to focus on his craft."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Eight is movement and mastery. In Pentacles, that means skill built through practice, one careful piece at a time."
   },
   {
     "name": "Nine of Pentacles",
@@ -3292,13 +3568,50 @@ const cards = [
     "arcana": "Minor",
     "number": 9,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "self-sufficiency",
+      "comfort",
+      "independence",
+      "earned reward"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Nine of Pentacles walks through a garden she grew herself. It invites you to enjoy the comfort and independence your hard work has made possible. This can look like a home you love, some financial breathing room, or the quiet pride of standing on your own. Enjoy it fully, and notice if independence ever turns into keeping everyone at a distance.",
+    "inReading": {
+      "love": "Feeling whole on your own, so that love becomes a choice rather than a need. Bring that fullness to any bond, whether you're sharing your life with someone or not.",
+      "work": "Financial stability, a reward for discipline, or the freedom to work on your own terms. Enjoy what you've built.",
+      "growth": "Treat yourself with the care you've worked for. Discipline and pleasure can grow side by side."
+    },
+    "questions": [
+      "What have I built that I can enjoy now?",
+      "Where do I feel most at home in myself?",
+      "Am I enjoying my independence, or using it to keep others out?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The hooded falcon on her glove",
+        "meaning": "wild energy trained and calm, the discipline that made her freedom possible."
+      },
+      {
+        "symbol": "The grapevines",
+        "meaning": "a ripe harvest and the sweetness of a good life."
+      },
+      {
+        "symbol": "The flowers on her robe",
+        "meaning": "beauty and pleasure; on the 1909 card they are drawn as the sign of Venus, the planet linked with both."
+      },
+      {
+        "symbol": "The snail at her feet",
+        "meaning": "slow, steady progress; some readers see patience, others a reminder that not everything moves at her pace."
+      },
+      {
+        "symbol": "The castle in the distance",
+        "meaning": "the home and security she has made her own."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Nine is nearly complete, the last stretch. In Pentacles, that means comfort and independence won through effort, just before the lasting legacy of the Ten."
   },
   {
     "name": "Ten of Pentacles",
@@ -3306,13 +3619,50 @@ const cards = [
     "arcana": "Minor",
     "number": 10,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "legacy",
+      "family",
+      "lasting wealth",
+      "belonging"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Ten of Pentacles is a home that holds generations. It invites you to think about what lasts: family by blood or by choice, traditions, and security you build for others as well as yourself. This can look like a family gathering, an inheritance, a first home, or a business that outlives you. Lasting wealth is about people, so don't let comfort crowd out connection.",
+    "inReading": {
+      "love": "Long-term commitment, a shared home, or a life woven together with family and friends. Think about the roots you want love to grow from.",
+      "work": "Long-term success, a family business, or a stable organization. Plan for what lasts beyond this year.",
+      "growth": "Look at what you've received from those before you and what you want to pass on. Your roots are part of who you are."
+    },
+    "questions": [
+      "What do I want to build that lasts?",
+      "What have I inherited, and what will I pass on?",
+      "Am I enjoying what I have with the people around me, or only guarding it?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The elder in the patterned cloak",
+        "meaning": "a lifetime of experience, seated at the edge of the family scene."
+      },
+      {
+        "symbol": "The couple and the child",
+        "meaning": "three generations in one place."
+      },
+      {
+        "symbol": "The two dogs",
+        "meaning": "loyalty and the protection of home."
+      },
+      {
+        "symbol": "The ten pentacles",
+        "meaning": "arranged in the shape of the Tree of Life, a diagram from the Kabbalah (a Jewish mystical tradition) that the Golden Dawn (the group behind this deck's symbolism) borrowed."
+      },
+      {
+        "symbol": "The archway and the coat of arms",
+        "meaning": "the family's house and name, passed down."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Ten is completion, a cycle carried to its end. In Pentacles, that means wealth that lasts beyond one life: home, family, and a legacy passed on."
   },
   {
     "name": "Page of Pentacles",
@@ -3320,13 +3670,46 @@ const cards = [
     "arcana": "Minor",
     "number": 11,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "study",
+      "curiosity",
+      "new skills",
+      "practical ambition"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Page of Pentacles holds a single coin up to the light and studies it. It invites you to learn something practical with curiosity and patience, like a trade, a course, or a better way to manage money. This can look like reading up before you invest, starting an entry-level job, or beginning a habit you mean to keep. A good student turns ideas into steps, so make sure the studying leads somewhere.",
+    "inReading": {
+      "love": "A sincere interest that grows slowly, or love built on small, reliable gestures. Take your time getting to know someone, even someone you've known for years.",
+      "work": "A new skill, an internship, or a promising start. Pay attention to the details and follow through.",
+      "growth": "Approach your goals like a student: one lesson and one step at a time."
+    },
+    "questions": [
+      "What could I learn that would make my life more solid?",
+      "What first step can I take this week?",
+      "Am I learning by doing, or only dreaming about it?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The pentacle raised in both hands",
+        "meaning": "studying something with total attention."
+      },
+      {
+        "symbol": "The ploughed field",
+        "meaning": "ground prepared for planting, work that will pay off later."
+      },
+      {
+        "symbol": "The trees and flowers",
+        "meaning": "growth at nature's gentle pace."
+      },
+      {
+        "symbol": "The mountain in the distance",
+        "meaning": "a long-term goal, still far off."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Pages are students, the rank that's curious and learning. The Page of Pentacles studies the earth: money, work, and the body, and how to make things last."
   },
   {
     "name": "Knight of Pentacles",
@@ -3334,13 +3717,46 @@ const cards = [
     "arcana": "Minor",
     "number": 12,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "reliability",
+      "routine",
+      "hard work",
+      "steady progress"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Knight of Pentacles is the one who shows up every day. It invites you to make progress through routine, patience, and keeping your word. This can look like sticking to a budget, exercising on a rainy morning, or finishing a long project bit by bit. Slow and steady gets there, as long as steady doesn't turn into stuck.",
+    "inReading": {
+      "love": "Loyal, dependable love, or a slow approach to someone new that puts trust before excitement. Consistency says more than big words now.",
+      "work": "Careful, reliable work and long-term effort. Keep at it, and check that your routine still serves the goal.",
+      "growth": "Build habits you can keep. Small things done every day change more than bursts of effort."
+    },
+    "questions": [
+      "What routine is carrying me forward?",
+      "Where can I be more dependable, to others or to myself?",
+      "Am I moving steadily, or stuck in a rut I call patience?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The horse standing still",
+        "meaning": "the only Knight whose horse isn't moving. The Knight of Wands charges, the Knight of Swords gallops, the Knight of Cups walks calmly, and this one waits."
+      },
+      {
+        "symbol": "The oak sprigs on his helmet and the bridle",
+        "meaning": "strength, endurance, and slow growth."
+      },
+      {
+        "symbol": "The pentacle held up before him",
+        "meaning": "studying the task before acting."
+      },
+      {
+        "symbol": "The ploughed field",
+        "meaning": "work done row by row."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Knights are action, the rank that charges ahead. The Knight of Pentacles acts like the earth itself: slow, patient, and almost impossible to stop."
   },
   {
     "name": "Queen of Pentacles",
@@ -3348,13 +3764,50 @@ const cards = [
     "arcana": "Minor",
     "number": 13,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "nurturing",
+      "practicality",
+      "comfort",
+      "resourcefulness"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Queen of Pentacles makes the world around her warm and well kept. She invites you to care for people in practical ways: a good meal, a calm space, a budget that leaves room for kindness. This can look like balancing work and home, tending your health, or making someone feel looked after. Her care runs deepest when she includes herself in it.",
+    "inReading": {
+      "love": "Warm, grounded love shown through everyday care, at home or with yourself. A comfortable space and a shared table matter more than big gestures now.",
+      "work": "Practical skill, good sense with money, and a steady, caring presence. Your reliability makes you trusted.",
+      "growth": "Look after your body, your home, and your finances as acts of care. Comfort is something you can build."
+    },
+    "questions": [
+      "How can I care for others in practical ways?",
+      "What would make my home and body feel looked after?",
+      "Am I caring for myself too, or only for everyone else?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The pentacle in her lap",
+        "meaning": "resources held with tenderness and close attention."
+      },
+      {
+        "symbol": "The rose bower",
+        "meaning": "love and abundance growing all around her."
+      },
+      {
+        "symbol": "The rabbit",
+        "meaning": "fertility and new life; some readers see quick abundance, others simple comfort."
+      },
+      {
+        "symbol": "The goat's head on the throne",
+        "meaning": "ambition grounded in practice; some readers link it to Capricorn, an earth sign."
+      },
+      {
+        "symbol": "The mountains in the distance",
+        "meaning": "the steady, solid ground she lives on."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Queens are inner mastery, the rank that holds the element with care. The Queen of Pentacles holds the earth like a gardener: patient, generous, and rooted in everyday life."
   },
   {
     "name": "King of Pentacles",
@@ -3362,12 +3815,49 @@ const cards = [
     "arcana": "Minor",
     "number": 14,
     "suit": "Pentacles",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "abundance",
+      "success",
+      "security",
+      "generous leadership"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The King of Pentacles sits among the riches he has built and grown. He invites you to lead with steady, practical wisdom: build wealth, keep promises, and use your success to support others. This can look like running a business, managing a household's money well, or becoming the person others rely on. True success is generous and grounded, not measured only by what you own.",
+    "inReading": {
+      "love": "Stable, generous love and the comfort of a secure life, shared now or offered to someone in the future. Show care through reliability, not just gifts.",
+      "work": "Leadership, business success, and skill with money. Use your position to build something that lasts and helps others.",
+      "growth": "Own your achievements and your ability to provide. Then ask what your success is for."
+    },
+    "questions": [
+      "What have I built that I can be proud of?",
+      "How can I use my resources to support others?",
+      "Am I leading with generosity, or measuring my worth by what I own?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The bulls on the throne",
+        "meaning": "strength and steady effort; some readers link them to Taurus, an earth sign."
+      },
+      {
+        "symbol": "The grapevines on his robe",
+        "meaning": "the fruits of long work; his robe almost melts into the garden around him."
+      },
+      {
+        "symbol": "The sceptre and the pentacle",
+        "meaning": "rule over the material world."
+      },
+      {
+        "symbol": "The castle behind him",
+        "meaning": "what he has built and protects."
+      },
+      {
+        "symbol": "The armored foot under his robe",
+        "meaning": "the hard-working strength beneath his comfort."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Kings are outer mastery, the rank that leads with the element. The King of Pentacles leads with earth, building wealth and security that others can rely on."
   }
 ];
