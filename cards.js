@@ -323,6 +323,7 @@ const cards = [
   },
   {
     "name": "The Hermit",
+    "image": "images/the-hermit-lucerna-open.png",
     "arcana": "Major",
     "number": 9,
     "suit": null,
