@@ -365,6 +365,7 @@ const cards = [
   },
   {
     "name": "The Hanged Man",
+    "image": "images/the-hanged-man-lucerna-open.png",
     "arcana": "Major",
     "number": 12,
     "suit": null,
