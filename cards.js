@@ -421,6 +421,7 @@ const cards = [
   },
   {
     "name": "The Tower",
+    "image": "images/the-tower-lucerna-open.png",
     "arcana": "Major",
     "number": 16,
     "suit": null,
