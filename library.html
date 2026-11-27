@@ -10,18 +10,20 @@
   <link rel="stylesheet" href="style.css?v=64">
 </head>
 <body>
-  <div class="library-layout">
-    <aside class="index-pane">
-      <header class="page-header">
-        <a href="index.html" class="home-link">Lucerna</a>
-        <h2>The Library</h2>
-      </header>
+  <main class="library-room">
+    <header class="page-header">
+      <a href="index.html" class="home-link">Lucerna</a>
+      <h2>The Library</h2>
+    </header>
 
-      <div class="deck-map" id="deck-map"></div>
-    </aside>
+    <div class="bookcases" id="deck-map"></div>
+  </main>
 
-    <section class="detail-pane" id="detail-pane"></section>
-  </div>
+  <!-- The chosen card opens here, on top of the shelves -->
+  <dialog class="card-popup" id="card-popup" aria-label="Card">
+    <button class="popup-close" id="popup-close" aria-label="Close card">&times;</button>
+    <div class="popup-body" id="popup-body"></div>
+  </dialog>
 
   <script src="menu.js?v=64"></script>
   <script src="cards.js?v=64"></script>
