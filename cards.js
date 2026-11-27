@@ -505,6 +505,7 @@ const cards = [
   },
   {
     "name": "Ace of Wands",
+    "image": "images/ace-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 1,
     "suit": "Wands",
@@ -518,6 +519,7 @@ const cards = [
   },
   {
     "name": "Two of Wands",
+    "image": "images/two-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 2,
     "suit": "Wands",
@@ -531,6 +533,7 @@ const cards = [
   },
   {
     "name": "Three of Wands",
+    "image": "images/three-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 3,
     "suit": "Wands",
@@ -544,6 +547,7 @@ const cards = [
   },
   {
     "name": "Four of Wands",
+    "image": "images/four-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 4,
     "suit": "Wands",
@@ -557,6 +561,7 @@ const cards = [
   },
   {
     "name": "Five of Wands",
+    "image": "images/five-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 5,
     "suit": "Wands",
@@ -570,6 +575,7 @@ const cards = [
   },
   {
     "name": "Six of Wands",
+    "image": "images/six-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 6,
     "suit": "Wands",
@@ -583,6 +589,7 @@ const cards = [
   },
   {
     "name": "Seven of Wands",
+    "image": "images/seven-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 7,
     "suit": "Wands",
@@ -596,6 +603,7 @@ const cards = [
   },
   {
     "name": "Eight of Wands",
+    "image": "images/eight-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 8,
     "suit": "Wands",
@@ -609,6 +617,7 @@ const cards = [
   },
   {
     "name": "Nine of Wands",
+    "image": "images/nine-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 9,
     "suit": "Wands",
@@ -622,6 +631,7 @@ const cards = [
   },
   {
     "name": "Ten of Wands",
+    "image": "images/ten-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 10,
     "suit": "Wands",
