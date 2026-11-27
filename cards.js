@@ -393,6 +393,7 @@ const cards = [
   },
   {
     "name": "Temperance",
+    "image": "images/temperance-lucerna-open.png",
     "arcana": "Major",
     "number": 14,
     "suit": null,
