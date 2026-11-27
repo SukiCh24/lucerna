@@ -1318,6 +1318,7 @@ const cards = [
   },
   {
     "name": "Ace of Cups",
+    "image": "images/ace-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 1,
     "suit": "Cups",
@@ -1340,6 +1341,7 @@ const cards = [
   },
   {
     "name": "Two of Cups",
+    "image": "images/two-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 2,
     "suit": "Cups",
@@ -1353,6 +1355,7 @@ const cards = [
   },
   {
     "name": "Three of Cups",
+    "image": "images/three-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 3,
     "suit": "Cups",
@@ -1366,6 +1369,7 @@ const cards = [
   },
   {
     "name": "Four of Cups",
+    "image": "images/four-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 4,
     "suit": "Cups",
@@ -1379,6 +1383,7 @@ const cards = [
   },
   {
     "name": "Five of Cups",
+    "image": "images/five-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 5,
     "suit": "Cups",
@@ -1392,6 +1397,7 @@ const cards = [
   },
   {
     "name": "Six of Cups",
+    "image": "images/six-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 6,
     "suit": "Cups",
@@ -1405,6 +1411,7 @@ const cards = [
   },
   {
     "name": "Seven of Cups",
+    "image": "images/seven-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 7,
     "suit": "Cups",
@@ -1418,6 +1425,7 @@ const cards = [
   },
   {
     "name": "Eight of Cups",
+    "image": "images/eight-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 8,
     "suit": "Cups",
@@ -1431,6 +1439,7 @@ const cards = [
   },
   {
     "name": "Nine of Cups",
+    "image": "images/nine-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 9,
     "suit": "Cups",
@@ -1444,6 +1453,7 @@ const cards = [
   },
   {
     "name": "Ten of Cups",
+    "image": "images/ten-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 10,
     "suit": "Cups",
@@ -1457,6 +1467,7 @@ const cards = [
   },
   {
     "name": "Page of Cups",
+    "image": "images/page-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 11,
     "suit": "Cups",
@@ -1470,6 +1481,7 @@ const cards = [
   },
   {
     "name": "Knight of Cups",
+    "image": "images/knight-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 12,
     "suit": "Cups",
@@ -1483,6 +1495,7 @@ const cards = [
   },
   {
     "name": "Queen of Cups",
+    "image": "images/queen-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 13,
     "suit": "Cups",
@@ -1496,6 +1509,7 @@ const cards = [
   },
   {
     "name": "King of Cups",
+    "image": "images/king-of-cups-lucerna-open.png",
     "arcana": "Minor",
     "number": 14,
     "suit": "Cups",
