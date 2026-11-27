@@ -1523,6 +1523,7 @@ const cards = [
   },
   {
     "name": "Ace of Swords",
+    "image": "images/ace-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 1,
     "suit": "Swords",
@@ -1536,6 +1537,7 @@ const cards = [
   },
   {
     "name": "Two of Swords",
+    "image": "images/two-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 2,
     "suit": "Swords",
@@ -1549,6 +1551,7 @@ const cards = [
   },
   {
     "name": "Three of Swords",
+    "image": "images/three-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 3,
     "suit": "Swords",
@@ -1562,6 +1565,7 @@ const cards = [
   },
   {
     "name": "Four of Swords",
+    "image": "images/four-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 4,
     "suit": "Swords",
@@ -1575,6 +1579,7 @@ const cards = [
   },
   {
     "name": "Five of Swords",
+    "image": "images/five-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 5,
     "suit": "Swords",
@@ -1588,6 +1593,7 @@ const cards = [
   },
   {
     "name": "Six of Swords",
+    "image": "images/six-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 6,
     "suit": "Swords",
@@ -1601,6 +1607,7 @@ const cards = [
   },
   {
     "name": "Seven of Swords",
+    "image": "images/seven-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 7,
     "suit": "Swords",
@@ -1614,6 +1621,7 @@ const cards = [
   },
   {
     "name": "Eight of Swords",
+    "image": "images/eight-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 8,
     "suit": "Swords",
@@ -1627,6 +1635,7 @@ const cards = [
   },
   {
     "name": "Nine of Swords",
+    "image": "images/nine-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 9,
     "suit": "Swords",
@@ -1640,6 +1649,7 @@ const cards = [
   },
   {
     "name": "Ten of Swords",
+    "image": "images/ten-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 10,
     "suit": "Swords",
@@ -1653,6 +1663,7 @@ const cards = [
   },
   {
     "name": "Page of Swords",
+    "image": "images/page-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 11,
     "suit": "Swords",
@@ -1666,6 +1677,7 @@ const cards = [
   },
   {
     "name": "Knight of Swords",
+    "image": "images/knight-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 12,
     "suit": "Swords",
@@ -1679,6 +1691,7 @@ const cards = [
   },
   {
     "name": "Queen of Swords",
+    "image": "images/queen-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 13,
     "suit": "Swords",
@@ -1692,6 +1705,7 @@ const cards = [
   },
   {
     "name": "King of Swords",
+    "image": "images/king-of-swords-lucerna-open.png",
     "arcana": "Minor",
     "number": 14,
     "suit": "Swords",
