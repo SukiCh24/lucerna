@@ -1812,10 +1812,42 @@ const cards = [
       "self-neglect"
     ],
     "story": "",
-    "upright": "A heart filling to overflowing. The Ace of Cups brings a fresh wave of love, kindness, or creative inspiration, a gift you are invited to receive.",
+    "upright": "The Ace of Cups is a heart filling to overflowing. It invites you to open up to a new feeling, whether love, kindness, or a rush of creative inspiration. This might be a new friendship, a moment of tenderness, or tears that finally let something out. A cup this full is meant to be shared, as long as you keep some for yourself.",
+    "inReading": {
+      "love": "A new connection, a rush of tenderness, or love opening up in a relationship that has felt guarded. Let your heart show, even a little.",
+      "work": "Work that touches people or feeds your creativity. Notice which tasks make you feel something, and follow that thread.",
+      "growth": "Your emotional life is opening up. Make room to feel, through journaling, art, or an honest conversation."
+    },
+    "questions": [
+      "What feeling is asking to be let in?",
+      "Where could I offer more kindness, to others or to myself?",
+      "Am I letting love flow both ways, or only giving it away?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The hand from the cloud",
+        "meaning": "a gift offered, as on all four Aces. Here the gift is feeling."
+      },
+      {
+        "symbol": "The dove with the wafer",
+        "meaning": "spirit coming down into the heart, an image drawn from Christian communion."
+      },
+      {
+        "symbol": "The letter on the cup",
+        "meaning": "readers disagree. Some see a W, others an upside-down M, and its meaning is still debated."
+      },
+      {
+        "symbol": "The five streams and falling drops",
+        "meaning": "feeling spilling over, more than one cup can hold. Some readers link the five streams to the five senses."
+      },
+      {
+        "symbol": "The water lilies",
+        "meaning": "emotions taking root and blooming on still water."
+      }
+    ],
     "reversed": "Feelings held in or dammed up, a sense of emptiness, or a reminder that your own heart needs care before it can pour out to others.",
     "symbolism": "A hand reaches from a cloud offering a cup, as if presenting a gift. Five streams of water spill over its rim, and a dove descends toward it, a sign of peace and spirit. Water lilies float on the pond below.",
-    "suitAndNumber": "Cups belong to water: emotions, relationships, and intuition. Every Ace is the pure seed of its suit, so this card is the very beginning of feeling."
+    "suitAndNumber": "Aces are the seed of a suit, its energy in pure form. The Ace of Cups is water at its source: feeling before it has a direction or a name."
   },
   {
     "name": "Two of Cups",
@@ -1823,13 +1855,50 @@ const cards = [
     "arcana": "Minor",
     "number": 2,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "partnership",
+      "connection",
+      "mutual respect",
+      "attraction"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Two of Cups is two people meeting as equals. It invites you to build a connection on honest give and take. This can be a romance, a close friendship, a reconciliation, or a working partnership where both sides feel seen. Closeness grows from exchange, not from losing yourself in someone else.",
+    "inReading": {
+      "love": "Mutual attraction, a promise made, or two people choosing each other again. Notice where care flows both ways, and offer yours openly.",
+      "work": "A partnership, collaboration, or agreement that benefits both sides. Look for the person whose strengths balance yours.",
+      "growth": "Your relationships are a mirror right now. Notice who helps you feel like yourself, and give that back."
+    },
+    "questions": [
+      "Which connection in my life feels truly balanced?",
+      "What am I offering, and what am I ready to receive?",
+      "Am I meeting this person as an equal, or shaping myself to please them?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The two figures with cups",
+        "meaning": "an exchange between equals, each offering as much as they receive."
+      },
+      {
+        "symbol": "The laurel wreaths",
+        "meaning": "honor and respect, worn by both."
+      },
+      {
+        "symbol": "The caduceus",
+        "meaning": "the staff of Hermes, two snakes winding together, a symbol of exchange and healing."
+      },
+      {
+        "symbol": "The winged lion's head",
+        "meaning": "passion lifted by spirit. Some readers see desire made gentle by care."
+      },
+      {
+        "symbol": "The house on the hill",
+        "meaning": "a home or future the two might build together."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Two is choice and balance. In Cups, that means two hearts finding the balance between giving and receiving."
   },
   {
     "name": "Three of Cups",
@@ -1837,13 +1906,46 @@ const cards = [
     "arcana": "Minor",
     "number": 3,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "friendship",
+      "celebration",
+      "community",
+      "joy"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Three of Cups is friends raising a toast together. It invites you to celebrate with the people who lift you up. This might be a party, a reunion, a creative group, or simply laughing with friends after a hard season. Joy grows when it's shared, though celebration can also become a way to avoid what needs facing.",
+    "inReading": {
+      "love": "Shared fun as a couple, a celebration with friends, or a spark with someone met through your circle. Let the people who know you be part of the story.",
+      "work": "Teamwork, a shared win, or a project that thrives on collaboration. Celebrate progress together, and thank the people who helped.",
+      "growth": "Community feeds you right now. Reach out to friends, join a group, or make time simply to enjoy each other."
+    },
+    "questions": [
+      "Who makes me feel most like myself?",
+      "What is worth celebrating in my life right now?",
+      "Am I celebrating with my friends, or hiding from something in the noise?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The three raised cups",
+        "meaning": "a toast to friendship and good fortune."
+      },
+      {
+        "symbol": "The three dancing women",
+        "meaning": "equal partners in a circle, with no one leading. Some readers link them to the three Graces of Greek myth."
+      },
+      {
+        "symbol": "The grapes, fruit, and pumpkin",
+        "meaning": "a harvest, the reward of shared effort."
+      },
+      {
+        "symbol": "The flowers at their feet",
+        "meaning": "life blooming around a happy moment."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Three is growth, the first results of a plan. In Cups, that means feeling shared beyond two people, growing into friendship and community."
   },
   {
     "name": "Four of Cups",
@@ -1851,13 +1953,46 @@ const cards = [
     "arcana": "Minor",
     "number": 4,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "apathy",
+      "contemplation",
+      "withdrawal",
+      "reevaluation"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Four of Cups is someone sitting under a tree, unmoved by what's offered. It invites you to pause and notice how you really feel, especially when life seems flat. This might be boredom, burnout, or a quiet need to turn inward and think. Rest can heal, but staying closed too long can make you miss a gift held right in front of you.",
+    "inReading": {
+      "love": "A lull, a cooling, or trouble feeling excited about anyone. Take time to understand what you truly want, and stay open to an invitation you might otherwise ignore.",
+      "work": "Restlessness, or a sense that nothing on offer excites you. Rethink what you want, and look twice before turning a chance down.",
+      "growth": "You may need quiet time to sort through your feelings. Rest or reflect, and notice what you've been overlooking."
+    },
+    "questions": [
+      "What am I feeling beneath this boredom or tiredness?",
+      "What have I been taking for granted?",
+      "Am I resting to recover, or closing myself off from what's offered?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The hand from the cloud",
+        "meaning": "a fourth cup offered, like the Ace's gift, and not yet noticed."
+      },
+      {
+        "symbol": "The crossed arms and legs",
+        "meaning": "a closed posture, turned inward."
+      },
+      {
+        "symbol": "The three cups on the ground",
+        "meaning": "what's already there, and doesn't satisfy."
+      },
+      {
+        "symbol": "The tree",
+        "meaning": "shelter for rest and reflection. Some readers compare the scene to meditation beneath a tree."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Four is stability. In Cups, stability can turn into emotional standstill: comfortable, safe, and a little numb."
   },
   {
     "name": "Five of Cups",
@@ -1865,13 +2000,50 @@ const cards = [
     "arcana": "Minor",
     "number": 5,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "loss",
+      "grief",
+      "regret",
+      "disappointment"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Five of Cups is grief over what has spilled. It invites you to feel your loss honestly, without hurrying past it. This might be disappointment, a breakup, a plan that fell apart, or regret over a choice. Mourning matters, and when you're ready, you can turn around: something still remains.",
+    "inReading": {
+      "love": "Heartbreak, disappointment, or an old hurt that still lingers. Be gentle with yourself, and notice the love that is still standing.",
+      "work": "A setback or loss that stings. Learn what you can from it, then look at what you can still build on.",
+      "growth": "Give your sadness room, through tears, words, or time. Healing begins when you can look at what remains, not only at what's gone."
+    },
+    "questions": [
+      "What loss do I need to grieve honestly?",
+      "What is this disappointment teaching me?",
+      "Am I honoring my grief, or refusing to see what's still here?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The cloaked figure",
+        "meaning": "head bowed in mourning, wrapped in sorrow."
+      },
+      {
+        "symbol": "The three spilled cups",
+        "meaning": "what has been lost."
+      },
+      {
+        "symbol": "The two standing cups",
+        "meaning": "what still remains, unseen for now."
+      },
+      {
+        "symbol": "The river",
+        "meaning": "grief flowing between the figure and home."
+      },
+      {
+        "symbol": "The bridge",
+        "meaning": "a way back across, when the figure is ready."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Five is challenge, the shake-up after stability. In Cups, the shake-up is emotional: loss breaks the Four's calm and asks you to feel."
   },
   {
     "name": "Six of Cups",
@@ -1879,13 +2051,46 @@ const cards = [
     "arcana": "Minor",
     "number": 6,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "nostalgia",
+      "childhood",
+      "innocence",
+      "kindness"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Six of Cups is a child offering flowers in a cup. It invites you to remember simple kindness and the warmth of earlier times. This might be a childhood memory, an old friend returning, a visit home, or a small gift given freely. The past can comfort you, but it's a place to visit, not to live.",
+    "inReading": {
+      "love": "Sweet, simple affection, someone from your past reappearing, or playful innocence returning to a relationship. Enjoy the tenderness, and make sure it belongs to the present.",
+      "work": "Familiar ground, a return to an old skill, or kindness among colleagues. Draw on what you've always loved doing.",
+      "growth": "Your inner child wants attention. Revisit an old joy, like a hobby, a song, or a place, and let it soften you."
+    },
+    "questions": [
+      "What memory brings me comfort right now?",
+      "How could I offer simple kindness today?",
+      "Am I learning from my past, or wishing I could live there?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The child offering the cup",
+        "meaning": "kindness given freely, with no strings attached."
+      },
+      {
+        "symbol": "The flowers in every cup",
+        "meaning": "small, simple joys in full bloom."
+      },
+      {
+        "symbol": "The old house and tower",
+        "meaning": "the past, remembered as a safe home."
+      },
+      {
+        "symbol": "The guard walking away",
+        "meaning": "grown-up worries leaving the scene. Some readers see him as the adult world the children don't need yet."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Six is harmony after struggle. In Cups, harmony returns after the Five's grief, through sweet memories and simple kindness."
   },
   {
     "name": "Seven of Cups",
@@ -1893,13 +2098,50 @@ const cards = [
     "arcana": "Minor",
     "number": 7,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "choices",
+      "fantasy",
+      "illusion",
+      "wishful thinking"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Seven of Cups is a dreamer facing a cloud of possibilities. It invites you to look carefully at your options and ask which ones are real. This might be too many choices, daydreams about another life, or offers that seem too good to be true. Imagination is a gift, but a dream only matters once you choose one and act.",
+    "inReading": {
+      "love": "Fantasies about love, an idealized crush, or a partner seen through rose-tinted glasses. Enjoy dreaming, then look clearly at what's real.",
+      "work": "Many options, and not all of them solid. Research before choosing, and focus on one goal at a time.",
+      "growth": "Your imagination is rich right now. Use it to picture what you want, then pick one dream to ground in action."
+    },
+    "questions": [
+      "Which of my options is real, and which is wishful thinking?",
+      "What do I truly want beneath all these choices?",
+      "Am I dreaming to find my direction, or to avoid choosing?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The figure in shadow",
+        "meaning": "a dreamer seen from behind, standing in for anyone facing a choice."
+      },
+      {
+        "symbol": "The cups in the clouds",
+        "meaning": "dreams and illusions, floating and not yet grounded."
+      },
+      {
+        "symbol": "The veiled, glowing figure",
+        "meaning": "a hidden truth, the one choice that isn't clear yet."
+      },
+      {
+        "symbol": "The other cups",
+        "meaning": "a head, a snake, a castle, jewels, a wreath, and a dragon. Readers interpret each differently, often as love, envy or wisdom, security, wealth, victory, and fear."
+      },
+      {
+        "symbol": "The skull on the wreath's cup",
+        "meaning": "even victory can carry a hidden cost."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Seven is a test of how much something matters. In Cups, the test is telling true desire from fantasy."
   },
   {
     "name": "Eight of Cups",
@@ -1907,13 +2149,50 @@ const cards = [
     "arcana": "Minor",
     "number": 8,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "departure",
+      "letting go",
+      "searching",
+      "deeper meaning"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Eight of Cups is a traveler leaving behind what no longer fills them. It invites you to admit when something has run its course, even if it looks fine from outside. This might be leaving a job, a relationship, or a habit to find something deeper. Walking away takes courage, as long as you're moving toward something and not only running.",
+    "inReading": {
+      "love": "Outgrowing an old pattern in love, a relationship that no longer nourishes, or a search for a deeper bond. Be honest about what's missing before deciding what to do.",
+      "work": "A role that no longer fulfills you. Consider what purpose you're looking for, and plan your next step with care.",
+      "growth": "You're ready for more meaning. Let yourself leave behind what's finished, even if others don't understand."
+    },
+    "questions": [
+      "What in my life no longer fills me?",
+      "What am I searching for beneath this restlessness?",
+      "Am I walking toward something meaningful, or simply running away?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The stacked cups with a gap",
+        "meaning": "something is missing, even if it looks full."
+      },
+      {
+        "symbol": "The traveler with a staff",
+        "meaning": "a journey begun alone, with only what's needed."
+      },
+      {
+        "symbol": "The sun and moon",
+        "meaning": "readers disagree. Some see an eclipse, others the moon watching over the night. Either way, it's a time of change and turning inward."
+      },
+      {
+        "symbol": "The mountains",
+        "meaning": "the hard climb toward deeper meaning."
+      },
+      {
+        "symbol": "The river",
+        "meaning": "feelings crossed and left behind."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Eight is movement and mastery. In Cups, movement means walking away from what no longer nourishes you, to find what does."
   },
   {
     "name": "Nine of Cups",
@@ -1921,13 +2200,46 @@ const cards = [
     "arcana": "Minor",
     "number": 9,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "contentment",
+      "wishes fulfilled",
+      "satisfaction",
+      "gratitude"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Nine of Cups is someone seated proudly before everything they wished for. Some readers call it the wish card, and it invites you to enjoy what you've achieved. This might be good food, comfort, a dream come true, or simply feeling pleased with yourself. Pleasure is meant to be savored, but lasting contentment comes from gratitude, not from having more.",
+    "inReading": {
+      "love": "Pleasure, ease, and the joy of feeling wanted. Enjoy it, and notice whether it also nourishes you.",
+      "work": "Satisfaction, recognition, or a goal reached. Take a moment to enjoy it before rushing to the next one.",
+      "growth": "You're allowed to feel good about yourself. Practice gratitude for what you already have."
+    },
+    "questions": [
+      "What wish of mine has already come true?",
+      "How can I fully enjoy what I have?",
+      "Am I truly content, or only satisfied on the surface?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The seated figure with crossed arms",
+        "meaning": "pride and satisfaction, perhaps a little smug."
+      },
+      {
+        "symbol": "The nine cups on display",
+        "meaning": "achievements and comforts, shown off in a row."
+      },
+      {
+        "symbol": "The curtain behind",
+        "meaning": "what the display hides. Some readers wonder what lies behind it."
+      },
+      {
+        "symbol": "The bench",
+        "meaning": "comfort and ease, a well-earned rest."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Nine is nearly complete, the last stretch. In Cups, it's personal happiness reached, one step before the shared joy of the Ten."
   },
   {
     "name": "Ten of Cups",
@@ -1935,13 +2247,50 @@ const cards = [
     "arcana": "Minor",
     "number": 10,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "harmony",
+      "family",
+      "emotional fulfillment",
+      "belonging"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Ten of Cups is a rainbow over a happy home. It invites you to value the love and belonging that make life feel whole. This might be family, chosen family, a close community, or deep peace with yourself. True harmony is lived, not posed, so let it be real rather than picture-perfect.",
+    "inReading": {
+      "love": "Lasting love, shared dreams, or the feeling of finding home in someone. Notice who makes you feel you belong.",
+      "work": "A happy team, a healthy balance, or a job that supports the life you want. Remember what you're working for.",
+      "growth": "Fulfillment comes from connection right now. Spend time with the people who feel like home."
+    },
+    "questions": [
+      "Who makes me feel like I belong?",
+      "What does a happy life truly look like for me?",
+      "Am I living my happiness, or trying to make it look perfect?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The rainbow of cups",
+        "meaning": "joy and promise, like light after a storm."
+      },
+      {
+        "symbol": "The couple with raised arms",
+        "meaning": "gratitude for what they share."
+      },
+      {
+        "symbol": "The dancing children",
+        "meaning": "carefree joy and the future of a family."
+      },
+      {
+        "symbol": "The house among the trees",
+        "meaning": "home, safety, and belonging."
+      },
+      {
+        "symbol": "The river",
+        "meaning": "feelings flowing gently through everyday life."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Ten is completion, a cycle carried to its end. In Cups, the journey of feeling ends in shared happiness: love wide enough to hold a whole family."
   },
   {
     "name": "Page of Cups",
@@ -1949,13 +2298,46 @@ const cards = [
     "arcana": "Minor",
     "number": 11,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "curiosity",
+      "intuition",
+      "creative beginnings",
+      "sensitivity"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Page of Cups is a young dreamer surprised by a fish in a cup. It invites you to stay open to the unexpected, especially messages from your feelings and intuition. This might be a creative idea, a sweet invitation, or a strange hunch that won't go away. Sensitivity is a strength, as long as you remember that not every feeling is a fact.",
+    "inReading": {
+      "love": "A sweet message, a shy confession, or a playful gesture of affection. Let yourself be a little vulnerable, and say what you feel.",
+      "work": "A creative idea or an intuitive spark. Explore it with curiosity, even if it seems unusual.",
+      "growth": "Your inner voice is speaking. Listen through dreams, art, or daydreams, and don't judge what comes."
+    },
+    "questions": [
+      "What surprising feeling or idea has come to me lately?",
+      "How could I express my emotions more openly?",
+      "Am I trusting my intuition, or getting lost in my moods?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The fish in the cup",
+        "meaning": "an unexpected message from the heart, creativity rising to the surface."
+      },
+      {
+        "symbol": "The waves behind",
+        "meaning": "the sea of feeling, always moving."
+      },
+      {
+        "symbol": "The flowers on the tunic",
+        "meaning": "some readers see lotus blossoms, a symbol of spiritual opening."
+      },
+      {
+        "symbol": "The relaxed pose",
+        "meaning": "playful openness, the attitude of a beginner."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Pages are students, curious and learning. The Page of Cups studies water: feelings, dreams, and intuition, still new and full of wonder."
   },
   {
     "name": "Knight of Cups",
@@ -1963,13 +2345,50 @@ const cards = [
     "arcana": "Minor",
     "number": 12,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "romance",
+      "charm",
+      "idealism",
+      "heartfelt offers"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Knight of Cups rides slowly, holding out his cup like an offering. He invites you to follow your heart and act on what you love. This might be a romantic gesture, a creative project, or an offer made in good faith. Idealism is beautiful, but a promise only matters when it's kept.",
+    "inReading": {
+      "love": "A romantic gesture, an invitation, or love that feels like a story. Enjoy the charm, and watch whether actions match the words.",
+      "work": "A creative offer or a project led by passion. Follow it, and ground your vision with practical steps.",
+      "growth": "Let your heart lead you somewhere new. Pursue what moves you, gently and on purpose."
+    },
+    "questions": [
+      "What is my heart calling me toward?",
+      "How can I offer my feelings sincerely?",
+      "Am I following my heart, or chasing an ideal that isn't real?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The calm horse",
+        "meaning": "a slow, steady pace, unlike the Knight of Wands' charge."
+      },
+      {
+        "symbol": "The cup held out",
+        "meaning": "a heartfelt offering, given with care."
+      },
+      {
+        "symbol": "The wings on his helmet and heels",
+        "meaning": "imagination, and a link to Hermes, the messenger of the gods."
+      },
+      {
+        "symbol": "The fish on his tunic",
+        "meaning": "water's creatures, as on the Page."
+      },
+      {
+        "symbol": "The river",
+        "meaning": "the waters of feeling he is about to cross."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Knights are action, the rank that charges ahead. The Knight of Cups moves with water's grace: he acts from the heart, sometimes more dreamy than practical."
   },
   {
     "name": "Queen of Cups",
@@ -1977,13 +2396,50 @@ const cards = [
     "arcana": "Minor",
     "number": 13,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "compassion",
+      "intuition",
+      "emotional depth",
+      "care"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Queen of Cups sits at the water's edge, gazing into her cup. She invites you to listen deeply, to others and to your own feelings. This might be comforting a friend, trusting a hunch, or making space for emotions you've pushed aside. Her care is strongest because her feet stay on the shore, touched by the waves but not swept away.",
+    "inReading": {
+      "love": "Deep tenderness, emotional honesty, and love that feels safe. Listen closely, and let yourself be cared for too.",
+      "work": "Empathy, intuition, and care for others. Trust your sense of people, and set limits so you don't get drained.",
+      "growth": "Your feelings are wise. Make quiet time to listen inward, through reflection, journaling, or simply being still."
+    },
+    "questions": [
+      "What is my intuition telling me?",
+      "How can I care for others without losing myself?",
+      "Am I feeling deeply, or drowning in emotions that aren't mine?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The closed cup",
+        "meaning": "the only covered cup in the suit, holding feelings and visions that are hers to keep. Some readers see it as the hidden depths of the mind."
+      },
+      {
+        "symbol": "The angel-shaped handles",
+        "meaning": "spiritual guidance and protection."
+      },
+      {
+        "symbol": "The sea children on the throne",
+        "meaning": "playful imagination, born from water."
+      },
+      {
+        "symbol": "The water at her feet",
+        "meaning": "she sits at the edge of emotion, close to it but not in it."
+      },
+      {
+        "symbol": "The pebbles on the shore",
+        "meaning": "firm, steady ground."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Queens are inner mastery, holding their element with care. The Queen of Cups holds water at its deepest: compassion, intuition, and a quiet, steady heart."
   },
   {
     "name": "King of Cups",
@@ -1991,13 +2447,50 @@ const cards = [
     "arcana": "Minor",
     "number": 14,
     "suit": "Cups",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "emotional balance",
+      "calm",
+      "diplomacy",
+      "wisdom"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The King of Cups sits steady on a throne floating on rough seas. He invites you to stay calm and kind when emotions run high. This might be handling a conflict gracefully, supporting someone in a crisis, or managing your own feelings with care. Calm is a strength, as long as it doesn't become a way of hiding what you feel.",
+    "inReading": {
+      "love": "Mature, steady love and the kind of calm that makes others feel safe. Offer patience, and value it when it's offered to you.",
+      "work": "Diplomacy, wise leadership, or a mentor who listens. Lead with empathy, and keep a cool head.",
+      "growth": "Learn to feel deeply without being ruled by it. Let your heart and your head work together."
+    },
+    "questions": [
+      "How can I stay calm when emotions run high?",
+      "Where could I lead with more compassion?",
+      "Am I balancing my feelings, or just hiding them?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The throne on the sea",
+        "meaning": "steady footing on unsteady water."
+      },
+      {
+        "symbol": "The cup and scepter",
+        "meaning": "heart and authority, held together."
+      },
+      {
+        "symbol": "The fish pendant",
+        "meaning": "water's creature worn over his heart, a sign of creative spirit."
+      },
+      {
+        "symbol": "The leaping fish",
+        "meaning": "emotions rising from the deep."
+      },
+      {
+        "symbol": "The ship",
+        "meaning": "everyday affairs, sailing safely through rough water."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Kings are outer mastery, leading with their element. The King of Cups leads with water: he steers through emotion with a calm, generous heart."
   },
   {
     "name": "Ace of Swords",
