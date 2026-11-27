@@ -645,6 +645,7 @@ const cards = [
   },
   {
     "name": "Page of Wands",
+    "image": "images/page-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 11,
     "suit": "Wands",
@@ -658,6 +659,7 @@ const cards = [
   },
   {
     "name": "Knight of Wands",
+    "image": "images/knight-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 12,
     "suit": "Wands",
@@ -671,6 +673,7 @@ const cards = [
   },
   {
     "name": "Queen of Wands",
+    "image": "images/queen-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 13,
     "suit": "Wands",
@@ -684,6 +687,7 @@ const cards = [
   },
   {
     "name": "King of Wands",
+    "image": "images/king-of-wands-lucerna-open.png",
     "arcana": "Minor",
     "number": 14,
     "suit": "Wands",
