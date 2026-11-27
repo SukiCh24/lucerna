@@ -407,6 +407,7 @@ const cards = [
   },
   {
     "name": "The Devil",
+    "image": "images/the-devil-lucerna-open.png",
     "arcana": "Major",
     "number": 15,
     "suit": null,
