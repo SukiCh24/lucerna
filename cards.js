@@ -435,6 +435,7 @@ const cards = [
   },
   {
     "name": "The Star",
+    "image": "images/the-star-lucerna-open.png",
     "arcana": "Major",
     "number": 17,
     "suit": null,
@@ -448,6 +449,7 @@ const cards = [
   },
   {
     "name": "The Moon",
+    "image": "images/the-moon-lucerna-open.png",
     "arcana": "Major",
     "number": 18,
     "suit": null,
@@ -461,6 +463,7 @@ const cards = [
   },
   {
     "name": "The Sun",
+    "image": "images/the-sun-lucerna-open.png",
     "arcana": "Major",
     "number": 19,
     "suit": null,
@@ -474,6 +477,7 @@ const cards = [
   },
   {
     "name": "Judgement",
+    "image": "images/judgement-lucerna-open.png",
     "arcana": "Major",
     "number": 20,
     "suit": null,
@@ -487,6 +491,7 @@ const cards = [
   },
   {
     "name": "The World",
+    "image": "images/the-world-lucerna-open.png",
     "arcana": "Major",
     "number": 21,
     "suit": null,
