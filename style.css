@@ -378,6 +378,11 @@ h1 {
     height: 100vh;
     overflow-y: auto;
     box-sizing: border-box;
+    scrollbar-width: none; /* hides the scroll bar, scrolling still works */
+  }
+  .index-pane::-webkit-scrollbar,
+  .detail-pane::-webkit-scrollbar {
+    display: none;
   }
   .index-pane {
     padding: 32px 40px 48px;

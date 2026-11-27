@@ -1126,13 +1126,50 @@ const cards = [
     "arcana": "Minor",
     "number": 1,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "inspiration",
+      "spark",
+      "new energy",
+      "potential"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Ace of Wands is a spark catching flame. It invites you to notice a new idea, passion, or burst of energy, and to act on it while it's warm. This might be a project that won't leave your head, a sudden urge to create, or the nerve to try something new. A spark is only a beginning: it becomes a fire only if you feed it.",
+    "inReading": {
+      "love": "New attraction, playful flirting, or warmth rekindled in a relationship that has grown quiet. Follow the spark with small, honest gestures and see where it leads.",
+      "work": "A new idea, project, or opportunity with real energy behind it. Write it down and take one concrete step before the excitement fades.",
+      "growth": "A creative urge or new interest is asking for room in your life. Give it time, even a little, and let yourself be a beginner."
+    },
+    "questions": [
+      "What idea or passion keeps lighting up in me?",
+      "What small first step could I take this week?",
+      "Am I feeding this spark, or only enjoying the feeling of it?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The hand from the cloud",
+        "meaning": "a gift offered, as on all four Aces. The spark comes to you, and your part is to take hold of it."
+      },
+      {
+        "symbol": "The sprouting leaves on the wand",
+        "meaning": "the wand is alive and still growing, so this energy is fresh and real."
+      },
+      {
+        "symbol": "The falling leaves",
+        "meaning": "some readers see them as yods, Hebrew letters standing for sparks of divine energy, while others simply see growth spilling over."
+      },
+      {
+        "symbol": "The glow around the hand",
+        "meaning": "the sudden, bright moment an idea arrives."
+      },
+      {
+        "symbol": "The castle on the hill",
+        "meaning": "a distant goal this spark could one day reach."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Aces are the seed of a suit, its energy in pure form. The Ace of Wands is fire at its first flicker: inspiration before it has a plan or a shape."
   },
   {
     "name": "Two of Wands",
@@ -1140,13 +1177,50 @@ const cards = [
     "arcana": "Minor",
     "number": 2,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "planning",
+      "vision",
+      "decision",
+      "the wider world"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Two of Wands is the view from the castle wall. It invites you to look past what's comfortable and decide where your energy goes next. You may be weighing two paths, mapping out a plan, or sensing that a bigger life waits beyond familiar ground. Holding the world in your hand is not the same as stepping into it, so at some point the plan has to become a move.",
+    "inReading": {
+      "love": "Thinking about the future: where a relationship is heading, or what kind of love you want next. Talk about your hopes openly instead of only imagining them.",
+      "work": "Long-term planning, a choice between options, or a chance to expand, travel, or reach new people. Do your research, then commit to a direction.",
+      "growth": "You have outgrown something, and you can feel it. Picture the bigger version of your life in detail, then name one thing that would move you toward it."
+    },
+    "questions": [
+      "What do I see when I look past my current horizon?",
+      "Which path am I truly drawn to, and why?",
+      "Am I planning my next step, or using planning to avoid taking it?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The globe in his hand",
+        "meaning": "the whole world of possibilities, held but not yet explored."
+      },
+      {
+        "symbol": "The wand fixed to the wall",
+        "meaning": "what he has already built and secured."
+      },
+      {
+        "symbol": "The wand he holds",
+        "meaning": "the new venture he hasn't committed to yet."
+      },
+      {
+        "symbol": "The view over sea and land",
+        "meaning": "the wide world calling from beyond the castle."
+      },
+      {
+        "symbol": "The flowers carved on the wall",
+        "meaning": "roses and lilies in the 1909 card, often read as passion and pure intention working together."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Two is choice and balance, one thing weighed against another. In Wands, the first spark has become a plan, and now you decide where to aim it."
   },
   {
     "name": "Three of Wands",
@@ -1154,13 +1228,46 @@ const cards = [
     "arcana": "Minor",
     "number": 3,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "foresight",
+      "expansion",
+      "early results",
+      "looking ahead"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Three of Wands stands on a cliff, watching ships out on the water. It invites you to trust what you have set in motion and lift your eyes toward what comes next. Your first efforts are starting to show results, and new chances may come from farther away than you expected. Looking ahead is wise, but so is patience: ships come in on their own schedule.",
+    "inReading": {
+      "love": "Growing together, a long-distance connection, or meeting someone new as your world gets bigger. Stay open, and give things time to arrive.",
+      "work": "Early results, growth, or opportunities beyond your usual circle, perhaps abroad. Keep the bigger picture in view while the details unfold.",
+      "growth": "Something you started is beginning to move. Notice how far you have come, and let your vision stretch a little further."
+    },
+    "questions": [
+      "What have I already set in motion?",
+      "Where could my plans take me if I let them grow?",
+      "Am I trusting the process, or watching the horizon too anxiously?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The figure seen from behind",
+        "meaning": "you stand where he stands, looking out at your own future."
+      },
+      {
+        "symbol": "The ships on the water",
+        "meaning": "ventures already launched. Readers disagree on whether they are sailing out or coming home."
+      },
+      {
+        "symbol": "The high cliff",
+        "meaning": "a lookout earned by the effort it took to climb."
+      },
+      {
+        "symbol": "The three planted wands",
+        "meaning": "the groundwork already in place around him."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Three is growth, the first results of a plan. In Wands, that means looking out at the horizon, waiting for ventures you've already set in motion to come home."
   },
   {
     "name": "Four of Wands",
@@ -1168,13 +1275,50 @@ const cards = [
     "arcana": "Minor",
     "number": 4,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "celebration",
+      "homecoming",
+      "harmony",
+      "milestone"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Four of Wands is a garland raised for a celebration. It invites you to pause and enjoy what you have built, ideally with the people who helped you build it. This can be a wedding, a housewarming, a reunion, or simply a season when life feels settled and good. A celebration is a milestone, not a finish line, so enjoy it fully and let it give you strength for what comes next.",
+    "inReading": {
+      "love": "Happy milestones like moving in together, an engagement, or a joyful gathering, and the feeling of being at home with yourself and your people. Celebrate what's good out loud.",
+      "work": "A finished project, a launch, or a team reaching a goal together. Mark the moment and thank the people who made it happen.",
+      "growth": "A sense of belonging and stability is within reach. Notice where you feel at home, and invest in those places and people."
+    },
+    "questions": [
+      "What am I ready to celebrate?",
+      "Who helped me get here, and have I told them?",
+      "Am I letting myself enjoy this moment, or already rushing to the next goal?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The garland between the wands",
+        "meaning": "a harvest celebration, heavy with flowers and fruit."
+      },
+      {
+        "symbol": "The four wands",
+        "meaning": "a simple, steady structure, like a gateway you walk through to come home."
+      },
+      {
+        "symbol": "The two figures raising bouquets",
+        "meaning": "joy shared, and a welcome for whoever arrives."
+      },
+      {
+        "symbol": "The castle behind them",
+        "meaning": "home, safety, and community."
+      },
+      {
+        "symbol": "The bridge on the right",
+        "meaning": "some readers see a crossing into a new stage of life."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Four is stability, like the four corners of a solid foundation. In Wands, fire finds a home: energy settles into something worth celebrating."
   },
   {
     "name": "Five of Wands",
@@ -1182,13 +1326,46 @@ const cards = [
     "arcana": "Minor",
     "number": 5,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "competition",
+      "friction",
+      "clashing ideas",
+      "challenge"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Five of Wands is a crowd of raised wands, everyone swinging at once. It points to competition, disagreement, or a noisy clash where no one is quite listening. This can be a heated team meeting, a rivalry, or the inner noise of too many plans fighting for your attention. Not every clash is harmful: friction can sharpen ideas, as long as it stays a contest and not a war.",
+    "inReading": {
+      "love": "Bickering, small power struggles, or several people competing for the same attention. Ask what the friction is really about, and listen before you argue.",
+      "work": "Competition, a crowded field, or a team where everyone pushes their own idea. Healthy debate helps, so set some ground rules and look for what you share.",
+      "growth": "Different wants or plans are pulling against each other inside you. Let each side speak, then choose what matters most."
+    },
+    "questions": [
+      "Where in my life do I feel this push and pull?",
+      "What is this conflict trying to teach me?",
+      "Am I competing to grow, or only to win?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The five young men",
+        "meaning": "different people with different ideas, all talking at once."
+      },
+      {
+        "symbol": "The crossed wands",
+        "meaning": "energy going in every direction, building nothing yet."
+      },
+      {
+        "symbol": "No one is hurt",
+        "meaning": "many readers see a game or a practice fight here, not real violence. Readers disagree."
+      },
+      {
+        "symbol": "The uneven ground",
+        "meaning": "things are unsettled, and no one has firm footing."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Five is challenge, the shake-up that follows stability. In Wands, fire turns into friction as many sparks compete for the same air."
   },
   {
     "name": "Six of Wands",
@@ -1196,13 +1373,46 @@ const cards = [
     "arcana": "Minor",
     "number": 6,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "victory",
+      "recognition",
+      "confidence",
+      "public success"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Six of Wands is the rider coming home to cheers. It invites you to accept recognition for work well done and let yourself feel proud. This might be praise, a promotion, a win, or the quiet satisfaction of being seen. Enjoy the applause, and remember that pride built only on others' approval is fragile, and the people who helped you deserve their share.",
+    "inReading": {
+      "love": "Feeling proud of each other, a bond others celebrate, or the confidence that lets you shine for someone new. Let yourself be seen at your best.",
+      "work": "Success, praise, or a win that others notice. Accept credit gracefully and share it with the people who helped.",
+      "growth": "You have come through something, and you're stronger for it. Acknowledge your progress, even if no one else has said it yet."
+    },
+    "questions": [
+      "What success am I ready to own?",
+      "Who walked beside me on the way here?",
+      "Am I proud of my work, or hungry for applause?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The laurel wreath on his head",
+        "meaning": "the ancient crown of victory."
+      },
+      {
+        "symbol": "The wreath tied to his wand",
+        "meaning": "his success, carried high for everyone to see."
+      },
+      {
+        "symbol": "The horse in its decorated cloth",
+        "meaning": "a parade, not a battle, with momentum and pride moving forward."
+      },
+      {
+        "symbol": "The crowd with their wands",
+        "meaning": "the people who support him, and who helped him win."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Six is harmony, balance returning after a struggle. In Wands, the clash of the Five is over, and fire becomes a victory parade."
   },
   {
     "name": "Seven of Wands",
@@ -1210,13 +1420,46 @@ const cards = [
     "arcana": "Minor",
     "number": 7,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "standing your ground",
+      "defense",
+      "conviction",
+      "perseverance"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Seven of Wands holds the high ground against challengers below. It invites you to stand up for what you believe in, even when it feels like you are facing many at once. This can mean defending an idea, protecting a boundary, or holding your place after a hard-won success. Firmness is a strength, but not every challenge is an attack: know when to stand and when to listen.",
+    "inReading": {
+      "love": "Protecting what matters: a bond under outside pressure, your own standards, or the right to go at your own pace. Stand firm, and stay open to honest talk.",
+      "work": "Competition or criticism you need to answer. Stay confident in your work and defend it with clear reasons.",
+      "growth": "Your values are being tested. Hold on to what you know is right, and notice which battles are truly worth fighting."
+    },
+    "questions": [
+      "What am I protecting right now?",
+      "Do I believe in it enough to stand firm?",
+      "Am I defending something important, or just refusing to budge?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The high ground",
+        "meaning": "an advantage won by climbing, and worth keeping."
+      },
+      {
+        "symbol": "The six wands rising from below",
+        "meaning": "challengers or pressure, though we never see who holds them."
+      },
+      {
+        "symbol": "The wand held across his body",
+        "meaning": "defense, not attack."
+      },
+      {
+        "symbol": "His braced stance",
+        "meaning": "determination, ready for whatever comes next."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Seven is a test, the moment you're asked how much something matters. In Wands, fire has to hold its ground and defend the success the Six won."
   },
   {
     "name": "Eight of Wands",
@@ -1224,13 +1467,46 @@ const cards = [
     "arcana": "Minor",
     "number": 8,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "speed",
+      "momentum",
+      "news",
+      "things in motion"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Eight of Wands is a flight of wands cutting through open sky. It points to sudden movement: news arriving, plans speeding up, delays finally giving way. This can feel exciting, like a burst of messages, quick decisions, or a trip coming together. Move with the momentum, and check that speed doesn't carry you past details that matter.",
+    "inReading": {
+      "love": "Things moving quickly: a sudden message, an attraction that grows fast, or a relationship gathering speed. Enjoy the rush, and keep talking so no one gets left behind.",
+      "work": "Fast progress, quick replies, or travel. Act promptly while the path is clear.",
+      "growth": "Energy that felt stuck is moving again. Ride it, and spend it on what matters most."
+    },
+    "questions": [
+      "What is suddenly moving in my life?",
+      "How can I use this momentum well?",
+      "Am I moving with purpose, or just moving fast?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The eight flying wands",
+        "meaning": "energy already on its way, about to land."
+      },
+      {
+        "symbol": "No people at all",
+        "meaning": "events are moving faster than any one person can steer."
+      },
+      {
+        "symbol": "The open sky",
+        "meaning": "nothing in the way, a clear path."
+      },
+      {
+        "symbol": "The land and river below",
+        "meaning": "the wands will land somewhere real, bringing news or change. Some readers also see them as love's arrows."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Eight is movement and mastery, energy finding its rhythm. In Wands, fire is in full flight: everything set alight is now on its way."
   },
   {
     "name": "Nine of Wands",
@@ -1238,13 +1514,46 @@ const cards = [
     "arcana": "Minor",
     "number": 9,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "resilience",
+      "persistence",
+      "caution",
+      "the last stretch"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Nine of Wands is a tired guard who won't leave his post. It invites you to keep going: you have been through a lot, and you're closer to the finish than it feels. This can look like pushing through the last weeks of a project, or staying steady after setbacks. Being guarded can protect you, but carrying every old wound as a warning can also keep good things out.",
+    "inReading": {
+      "love": "Caution after past hurt, or a bond that has weathered hard times. Protect your heart, and notice when a wall has outlived its purpose.",
+      "work": "A final push, tiredness, or extra challenges near the end. Rest where you can and keep going: the finish is near.",
+      "growth": "You are stronger than you think, and your scars prove it. Honor your resilience, and let yourself accept support."
+    },
+    "questions": [
+      "What have I already come through?",
+      "What do I need to make it through the last stretch?",
+      "Am I staying alert, or expecting a fight that may not come?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The bandage on his head",
+        "meaning": "he has been hurt before, and he is still standing."
+      },
+      {
+        "symbol": "The eight wands behind him",
+        "meaning": "a fence he has built, or obstacles he has already passed. Readers disagree."
+      },
+      {
+        "symbol": "The wand he grips",
+        "meaning": "his last resource, held close."
+      },
+      {
+        "symbol": "His watchful look",
+        "meaning": "wariness learned from experience."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Nine is nearly complete, the last stretch before the end. In Wands, fire burns low but steady: tired, guarded, and still refusing to go out."
   },
   {
     "name": "Ten of Wands",
@@ -1252,13 +1561,46 @@ const cards = [
     "arcana": "Minor",
     "number": 10,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "burden",
+      "overload",
+      "responsibility",
+      "hard work"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Ten of Wands is a figure bent under everything he has taken on. It points to too much responsibility, too many commitments, or a goal that has turned into a weight. This can look like doing everyone's work, saying yes to everything, or finishing something while barely able to see the way. You're almost home, and this is a good moment to ask what you can set down or share.",
+    "inReading": {
+      "love": "Carrying more than your share in a relationship, or bringing old weight into a new one. Say honestly what feels heavy, and let someone help.",
+      "work": "Overwork, too many tasks, or a project that has become a grind. Prioritize, delegate, and let go of what isn't yours.",
+      "growth": "Your sense of responsibility is admirable, but it's wearing you down. Notice which loads you chose and which you simply never put down."
+    },
+    "questions": [
+      "What am I carrying that isn't mine?",
+      "What could I set down or share?",
+      "Am I being responsible, or afraid to ask for help?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The ten wands in his arms",
+        "meaning": "every commitment gathered into one heavy bundle."
+      },
+      {
+        "symbol": "His bent back",
+        "meaning": "strain that has built up slowly."
+      },
+      {
+        "symbol": "The wands blocking his view",
+        "meaning": "when the load is too big, you can't see where you're going."
+      },
+      {
+        "symbol": "The house ahead",
+        "meaning": "the goal is close, and rest is waiting."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Ten is completion, a cycle carried to its end. In Wands, the fire has done its work, and what's left is the weight of everything it started."
   },
   {
     "name": "Page of Wands",
@@ -1266,13 +1608,46 @@ const cards = [
     "arcana": "Minor",
     "number": 11,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "curiosity",
+      "enthusiasm",
+      "exploration",
+      "good news"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Page of Wands is a young explorer gazing at a living wand in wonder. It invites you to follow your curiosity and try something simply because it excites you. This can be a new hobby, a trip, a class, or a message that sparks your interest. Enthusiasm is a wonderful start, but the Page's gift grows only when commitment follows.",
+    "inReading": {
+      "love": "Playful flirting, exciting news, or the adventurous side of a relationship coming back to life. Be curious about the other person, and don't get serious too soon.",
+      "work": "A new idea, a fresh role, or an eagerness to learn. Explore freely, then pick one idea to develop.",
+      "growth": "Your inner beginner is awake. Try things, ask questions, and let yourself not know yet."
+    },
+    "questions": [
+      "What am I curious about right now?",
+      "What would I try if I weren't afraid of being new at it?",
+      "Am I exploring with purpose, or chasing every new spark?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The wand he studies",
+        "meaning": "a new idea he is seeing with fresh eyes."
+      },
+      {
+        "symbol": "The feather in his hat",
+        "meaning": "a plume shaped like a flame, fire's lively spirit."
+      },
+      {
+        "symbol": "The salamanders on his tunic",
+        "meaning": "in old legend, salamanders could live in fire unharmed, so they became this suit's creature."
+      },
+      {
+        "symbol": "The pyramids in the desert",
+        "meaning": "far-off places and adventures still waiting."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Pages are students, the rank that is curious and learning. The Page of Wands holds fire as a spark of excitement, eager to see what it can become."
   },
   {
     "name": "Knight of Wands",
@@ -1280,13 +1655,46 @@ const cards = [
     "arcana": "Minor",
     "number": 12,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "adventure",
+      "boldness",
+      "passion",
+      "impulsiveness"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Knight of Wands charges in, full of fire. He invites you to act with courage and chase what excites you. This can be a bold move, a sudden trip, or throwing yourself into a new passion. Energy like this opens doors, but it can burn out fast if you never stay long enough to finish.",
+    "inReading": {
+      "love": "Intense attraction, adventures shared, or a whirlwind that sweeps you off your feet. Enjoy the heat, and take time to see if it lasts.",
+      "work": "Bold action, a fast start, or a chance to take a risk. Move quickly, and make a plan to follow through.",
+      "growth": "Courage is rising in you. Use it to start something, and ask what will keep you going once the thrill fades."
+    },
+    "questions": [
+      "What am I ready to charge toward?",
+      "How can I turn this passion into lasting action?",
+      "Am I being brave, or just restless?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The rearing horse",
+        "meaning": "raw energy, barely held in check."
+      },
+      {
+        "symbol": "The plume on his helmet",
+        "meaning": "fire's passion, streaming behind him like a flame."
+      },
+      {
+        "symbol": "The salamanders on his tunic",
+        "meaning": "fire's creatures, as on the Page."
+      },
+      {
+        "symbol": "The pyramids",
+        "meaning": "far horizons. He is crossing the desert the Page only looked at."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Knights are action, the rank that charges ahead. The Knight of Wands carries fire at full speed: bold, exciting, and sometimes gone before the job is done."
   },
   {
     "name": "Queen of Wands",
@@ -1294,13 +1702,46 @@ const cards = [
     "arcana": "Minor",
     "number": 13,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "confidence",
+      "warmth",
+      "determination",
+      "independence"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Queen of Wands sits in full sunlight, sure of who she is. She invites you to own your gifts and bring warmth and confidence to everything you touch. This can look like leading a group with ease, speaking up, or simply walking into a room as yourself. Her confidence comes from self-trust, not from needing to be the center of attention.",
+    "inReading": {
+      "love": "Magnetism, warmth, and the kind of self-assurance that draws people close. Love that grows from knowing your own worth tends to last.",
+      "work": "Leading with charisma, juggling many things well, or stepping into a visible role. Trust your instincts, and let your energy lift others.",
+      "growth": "You are stepping into your own power. Celebrate what makes you you, and let your light be seen."
+    },
+    "questions": [
+      "What makes me feel most confident and alive?",
+      "Where can I bring more warmth to the people around me?",
+      "Am I shining from self-trust, or needing others to notice me?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The sunflower in her hand",
+        "meaning": "joy and warmth, life turning toward the light."
+      },
+      {
+        "symbol": "The lions on her throne",
+        "meaning": "courage and strength. The lion is also Leo, a fire sign in astrology."
+      },
+      {
+        "symbol": "The black cat at her feet",
+        "meaning": "drawn here in outline. Some readers see independence and intuition, others her playful, mysterious side."
+      },
+      {
+        "symbol": "The sunflowers on the throne",
+        "meaning": "her warmth is part of everything around her."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Queens are inner mastery, the rank that holds an element with care. The Queen of Wands keeps fire as warmth: steady, generous, and full of self-belief."
   },
   {
     "name": "King of Wands",
@@ -1308,13 +1749,50 @@ const cards = [
     "arcana": "Minor",
     "number": 14,
     "suit": "Wands",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "vision",
+      "leadership",
+      "boldness",
+      "inspiration"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The King of Wands is a visionary leader, already leaning forward to act. He invites you to take charge of a big idea and guide others toward it. This can look like starting a business, leading a team, or taking ownership of a dream. Real leadership inspires without overpowering, so his fire works best when it lights the way for others too.",
+    "inReading": {
+      "love": "Bold, generous love with a clear direction: shared dreams, a plan for the future, or the courage to say what you want. Lead with warmth, and leave room for the other person's vision.",
+      "work": "Leadership, starting your own venture, or a long-term vision. Set the direction clearly, then trust others to help carry it.",
+      "growth": "You are ready to lead your own life with purpose. Turn inspiration into a vision you can believe in, then live by it."
+    },
+    "questions": [
+      "What vision do I want to lead toward?",
+      "How can I inspire others without controlling them?",
+      "Am I leading with vision, or just with force of will?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The salamanders biting their tails",
+        "meaning": "circles of fire's creatures, like the ouroboros (an ancient symbol of endless renewal)."
+      },
+      {
+        "symbol": "The lion on the throne",
+        "meaning": "courage and command, echoing the Queen's lions."
+      },
+      {
+        "symbol": "The small salamander at his feet",
+        "meaning": "fire's creature, alive at the king's side."
+      },
+      {
+        "symbol": "His flame-shaped crown",
+        "meaning": "a mind full of fire and ideas."
+      },
+      {
+        "symbol": "His forward lean",
+        "meaning": "he is ready to rise and act."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Kings are outer mastery, the rank that leads with an element. The King of Wands puts fire to work in the world: vision turned into a direction others can follow."
   },
   {
     "name": "Ace of Cups",
