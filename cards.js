@@ -379,6 +379,7 @@ const cards = [
   },
   {
     "name": "Death",
+    "image": "images/death-lucerna-open.png",
     "arcana": "Major",
     "number": 13,
     "suit": null,
