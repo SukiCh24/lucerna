@@ -295,6 +295,7 @@ const cards = [
   },
   {
     "name": "The Chariot",
+    "image": "images/the-chariot-lucerna-open.png",
     "arcana": "Major",
     "number": 7,
     "suit": null,
