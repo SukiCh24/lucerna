@@ -128,7 +128,7 @@ const cards = [
     "story": "",
     "upright": "The High Priestess asks you to slow down and listen to what you already sense. Not every answer comes from thinking things through; some arrive as a quiet feeling, a dream, or a hunch you can't fully explain yet. This card invites you to trust that inner knowing and to be patient with what is still hidden. Sometimes the wisest move is to wait, watch, and say less.",
     "inReading": {
-      "love": "Something is unspoken or not yet revealed, in the other person or in you. Pay attention to what you feel beneath the words, and give the connection time to show its depth.",
+      "love": "Some feelings are still unspoken or not yet revealed, perhaps even your own. Pay attention to what you sense beneath the words, and give any connection time to show its depth.",
       "work": "Not the moment for a bold move. Gather information quietly, notice what others overlook, and trust your instincts about people and situations.",
       "growth": "A call to spend time alone with your own thoughts, through journaling, meditation, or simple quiet, and to take your intuition seriously."
     },
@@ -179,7 +179,7 @@ const cards = [
     "story": "",
     "upright": "The Empress is life in full bloom. She invites you to nurture what you love, whether that's a project, a relationship, a home, or yourself, and to let it grow at its own natural pace. This is a card of comfort, beauty, and pleasure in the senses: good food, rest, time in nature, and making something with your hands. When you care for things patiently, they flourish.",
     "inReading": {
-      "love": "Warmth, affection, and a relationship that feels nourishing. It can point to a deepening commitment and, for some, to family or a new life arriving.",
+      "love": "Warmth, affection, and romance that feels nourishing, whether it's already in your life or on its way. It can point to a deepening commitment and, for some, to a new life arriving.",
       "work": "Creative projects thrive now. Your ideas are fertile, so give them time and care, and expect growth that builds steadily rather than all at once.",
       "growth": "Treat yourself the way you'd treat something you love: rest, eat well, spend time outdoors, and make room for pleasure without guilt."
     },
@@ -230,7 +230,7 @@ const cards = [
     "story": "",
     "upright": "The Emperor brings order to chaos. He invites you to take charge of your situation: set clear goals, make a plan, and build the structure that will hold your life steady. This is a card of responsibility and leadership, of protecting what you care about with firm boundaries. Its strength comes from discipline and consistency, not from force.",
     "inReading": {
-      "love": "Stability and commitment, or a partner who shows love by being dependable. A good moment to talk about clear agreements and promises you can both keep.",
+      "love": "Stability, commitment, and love shown through being dependable. Clear agreements and kept promises matter now, whether you're in a relationship or looking for one.",
       "work": "Take the lead, get organized, and set up systems that keep things running smoothly. A boss, mentor, or institution may play an important role, and long-term plans are favored over quick wins.",
       "growth": "Build routines that support you, like a schedule, a budget, or healthy limits. Becoming your own steady ground is a form of self-respect."
     },

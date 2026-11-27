@@ -128,7 +128,7 @@ function inReadingHTML(card) {
     return `<p>${notWritten}</p>`;
   }
   return `<ul class="section-list">
-            <li><strong>Love:</strong> ${textOrPending(r.love)}</li>
+            <li><strong>Romance:</strong> ${textOrPending(r.love)}</li>
             <li><strong>Work:</strong> ${textOrPending(r.work)}</li>
             <li><strong>Personal growth:</strong> ${textOrPending(r.growth)}</li>
           </ul>`;
