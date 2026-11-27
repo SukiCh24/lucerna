@@ -2498,13 +2498,50 @@ const cards = [
     "arcana": "Minor",
     "number": 1,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "clarity",
+      "truth",
+      "breakthrough",
+      "a clear mind"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Ace of Swords is a flash of clarity that cuts through confusion. It invites you to name what's true and decide with a clear head. This might be a new idea, an honest conversation, or the moment a problem finally makes sense. A sword cuts both ways, so let your truth be sharp but not cruel.",
+    "inReading": {
+      "love": "An honest talk that clears the air, or a new connection that starts with real conversation. Say what you mean, kindly and plainly.",
+      "work": "A breakthrough idea, a clear decision, or a plan that finally comes into focus. Write it down while the thinking is fresh.",
+      "growth": "Cut through the noise in your head and ask what you actually believe. Clear thinking is a skill you can practice."
+    },
+    "questions": [
+      "What truth am I finally ready to see?",
+      "Where do I need to make a clear decision?",
+      "Am I speaking honestly, or using the truth to wound?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The hand from the cloud",
+        "meaning": "the Ace's gift, offered to you."
+      },
+      {
+        "symbol": "The upright sword",
+        "meaning": "clear thinking that points straight toward the truth."
+      },
+      {
+        "symbol": "The crown on the tip",
+        "meaning": "the power of a mind that sees clearly."
+      },
+      {
+        "symbol": "The branches hanging from the crown",
+        "meaning": "often read as olive for peace and palm for victory. Readers disagree on the exact plants."
+      },
+      {
+        "symbol": "The falling drops",
+        "meaning": "sparks of insight. Some readers see them as yods, a Hebrew letter often read as a spark of the divine."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "The Ace is the seed, energy in pure form. In Swords, the seed is a single clear thought: the raw power of air to cut through and find the truth."
   },
   {
     "name": "Two of Swords",
@@ -2512,13 +2549,46 @@ const cards = [
     "arcana": "Minor",
     "number": 2,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "stalemate",
+      "indecision",
+      "avoidance",
+      "a guarded heart"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Two of Swords is a choice you're holding off. It invites you to admit a decision is waiting and gather what you need to make it. This might look like avoiding a hard conversation, weighing two options for too long, or keeping the peace by staying still. Pausing to think is wise, but a blindfold can't stay on forever.",
+    "inReading": {
+      "love": "Two people waiting for the other to speak first, or a heart kept carefully closed. Lower your guard a little and see what's really there.",
+      "work": "A decision stuck between two options, or a standoff no one wants to break. List what you know and what you still need to find out.",
+      "growth": "Notice what you've been refusing to look at. Calm is good, but numbness isn't the same as peace."
+    },
+    "questions": [
+      "What decision have I been putting off?",
+      "What would I see if I took off the blindfold?",
+      "Am I taking time to think, or hiding from the choice?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The blindfold",
+        "meaning": "shutting out what she doesn't want to see. Some readers see it instead as trusting inner judgment over appearances."
+      },
+      {
+        "symbol": "The crossed swords",
+        "meaning": "a guarded heart, held in perfect but tiring balance."
+      },
+      {
+        "symbol": "The crescent moon",
+        "meaning": "intuition, and the quiet hours when choices weigh heaviest."
+      },
+      {
+        "symbol": "The water and rocks behind her",
+        "meaning": "feelings and obstacles she has turned her back on."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Two is choice and balance. In Swords, it's a choice of the mind: two thoughts held equal, with nothing yet to tip the scale."
   },
   {
     "name": "Three of Swords",
@@ -2526,13 +2596,46 @@ const cards = [
     "arcana": "Minor",
     "number": 3,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "heartbreak",
+      "painful truth",
+      "sorrow",
+      "release"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Three of Swords is the sharp pain of a truth that hurts. It invites you to let the hurt be real instead of pretending it doesn't sting. This might be a breakup, harsh words, a betrayal, or news you didn't want. Pain met honestly can heal, while pain replayed again and again keeps the swords in place.",
+    "inReading": {
+      "love": "Heartbreak, painful words, or an old wound that aches again. Let yourself grieve, and be honest about what hurt.",
+      "work": "Criticism that stings, a disappointing outcome, or a painful falling-out. Take what is true from it and let the rest go.",
+      "growth": "Feel the sorrow instead of pushing it away. Tears, writing, or a trusted friend can help the rain fall and pass."
+    },
+    "questions": [
+      "What pain am I ready to acknowledge?",
+      "What truth hurt me, and what can it teach me?",
+      "Am I letting this hurt heal, or reopening it again and again?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The heart",
+        "meaning": "feelings at the center of the card, laid bare."
+      },
+      {
+        "symbol": "The three swords",
+        "meaning": "words, thoughts, or truths that cut deep."
+      },
+      {
+        "symbol": "The storm clouds",
+        "meaning": "a heavy mood that fills the whole sky."
+      },
+      {
+        "symbol": "The rain",
+        "meaning": "tears, and the release that comes with them."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Three is growth, the first results. In Swords, the first result of hard thinking can be a hard truth: the mind sees clearly, and the heart feels it."
   },
   {
     "name": "Four of Swords",
@@ -2540,13 +2643,46 @@ const cards = [
     "arcana": "Minor",
     "number": 4,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "rest",
+      "recovery",
+      "retreat",
+      "reflection"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Four of Swords is the quiet after the storm. It invites you to rest, step back, and let your mind recover. This might be a real break, a night of good sleep, or simply time to think before acting again. Rest is not giving up, though a retreat that never ends can turn into hiding.",
+    "inReading": {
+      "love": "A pause to heal, reflect, or give each other space. Quiet time can bring you back to love, or to yourself, with a clearer heart.",
+      "work": "Step back from the pressure before burnout decides for you. A short pause now can help you return with fresh focus.",
+      "growth": "Make room for stillness, whether that's rest, prayer, meditation, or simple silence. Your mind heals when you stop feeding it noise."
+    },
+    "questions": [
+      "Where do I need real rest right now?",
+      "What might quiet help me understand?",
+      "Am I resting to recover, or hiding from what comes next?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The figure lying still",
+        "meaning": "a knight at rest, hands joined in prayer. Some readers see a carved figure on a tomb, others a sleeper."
+      },
+      {
+        "symbol": "The three hanging swords",
+        "meaning": "troubles set aside, for now."
+      },
+      {
+        "symbol": "The sword along the tomb",
+        "meaning": "the one thought still kept close."
+      },
+      {
+        "symbol": "The stained-glass window",
+        "meaning": "a sheltered, sacred space, with light coming in from outside."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Four is stability. In Swords, stability comes from stillness: the mind steadies itself by stopping to rest."
   },
   {
     "name": "Five of Swords",
@@ -2554,13 +2690,46 @@ const cards = [
     "arcana": "Minor",
     "number": 5,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "conflict",
+      "defeat",
+      "hollow victory",
+      "tension"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Five of Swords is a fight that leaves no real winners. It invites you to ask what a win would actually cost. This might be an argument, a power struggle, or a moment of feeling beaten or humiliated. Sometimes the bravest move is to lay the sword down and walk away.",
+    "inReading": {
+      "love": "Arguments, hurtful words, or a need to be right that pushes love away. Ask whether winning the point is worth losing the connection.",
+      "work": "Office tension, unfair competition, or a win that sours the team. Choose your battles, and fight fair in the ones you pick.",
+      "growth": "Notice how you act in conflict, whether you win or lose. Letting go of a fight can be a form of strength."
+    },
+    "questions": [
+      "What conflict am I caught in?",
+      "What would I lose by winning this?",
+      "Am I standing up for myself, or fighting just to win?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The smiling figure",
+        "meaning": "the winner, gathering three swords and looking pleased with himself."
+      },
+      {
+        "symbol": "The two swords on the ground",
+        "meaning": "what was lost or given up."
+      },
+      {
+        "symbol": "The two figures walking away",
+        "meaning": "defeat, or a choice to leave the fight."
+      },
+      {
+        "symbol": "The jagged clouds",
+        "meaning": "tension that hangs in the air after harsh words."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Five is challenge, the shake-up after stability. In Swords, the shake-up is a clash of minds: words and wills collide, and someone ends up hurt."
   },
   {
     "name": "Six of Swords",
@@ -2568,13 +2737,50 @@ const cards = [
     "arcana": "Minor",
     "number": 6,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "transition",
+      "moving on",
+      "healing",
+      "passage"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Six of Swords is a quiet crossing toward calmer water. It invites you to leave a hard situation behind, even if some sadness travels with you. This might be a move, the end of a difficult chapter, or a slow return to peace of mind. The swords come along on the journey, so be patient with what still weighs on you.",
+    "inReading": {
+      "love": "Moving on from a hard chapter, or a relationship heading into calmer water. Let the journey be gentle and unhurried.",
+      "work": "A transition out of a stressful role or project, even if it feels bittersweet. Steady steps forward count.",
+      "growth": "You don't have to fix everything before you move on. Accept the help that's offered and keep heading toward calmer ground."
+    },
+    "questions": [
+      "What am I ready to leave behind?",
+      "Who or what is helping me through this change?",
+      "Am I truly moving on, or bringing every worry with me?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The ferryman",
+        "meaning": "help that guides you through a hard passage."
+      },
+      {
+        "symbol": "The two cloaked passengers",
+        "meaning": "travelers carrying their sorrow quietly. Many readers see a mother and child."
+      },
+      {
+        "symbol": "The six swords in the boat",
+        "meaning": "worries that come along but no longer sink the boat."
+      },
+      {
+        "symbol": "The rough water beside the boat",
+        "meaning": "the trouble being left behind."
+      },
+      {
+        "symbol": "The far shore with trees",
+        "meaning": "a calmer place waiting ahead."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Six is harmony after struggle. In Swords, harmony comes as a calmer mind: the painful thoughts are still there, but they no longer steer."
   },
   {
     "name": "Seven of Swords",
@@ -2582,13 +2788,46 @@ const cards = [
     "arcana": "Minor",
     "number": 7,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "strategy",
+      "secrecy",
+      "cleverness",
+      "getting away with it"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Seven of Swords is a clever plan carried out in secret. It invites you to think strategically and look honestly at what is hidden. This might be working your way around a problem, keeping a plan quiet, or noticing someone who isn't being straight with you. Cleverness is a gift, but deception usually costs more than it gains.",
+    "inReading": {
+      "love": "Secrets, mixed signals, or something left unsaid. Honesty with yourself and with others matters more than playing it cool.",
+      "work": "Think strategically and protect your ideas, but keep your methods clean. Watch for shortcuts that could come back to bite.",
+      "growth": "Notice where you avoid the direct path or tell yourself small lies. Ask what you're really trying to get away with."
+    },
+    "questions": [
+      "What am I keeping hidden, and why?",
+      "Where would a smarter strategy help me?",
+      "Am I being clever, or being dishonest?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The figure on tiptoe",
+        "meaning": "sneaking away, glancing back to make sure no one sees."
+      },
+      {
+        "symbol": "The five swords in his arms",
+        "meaning": "what he's taking, more than he can carry well."
+      },
+      {
+        "symbol": "The two swords left standing",
+        "meaning": "what he left behind, or couldn't manage."
+      },
+      {
+        "symbol": "The tents and the distant figures",
+        "meaning": "the camp he's slipping away from, unaware for now."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Seven is a test of how much something matters. In Swords, the test is of honesty: how far will the mind bend the truth to get what it wants?"
   },
   {
     "name": "Eight of Swords",
@@ -2596,13 +2835,50 @@ const cards = [
     "arcana": "Minor",
     "number": 8,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "restriction",
+      "feeling trapped",
+      "self-doubt",
+      "a hidden way out"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Eight of Swords is feeling trapped by your own thoughts. It invites you to question the story that says there's no way out. This might feel like being stuck, powerless, or afraid to move in case you get it wrong. Look closely: the swords don't fully close in, and the ties may be looser than they seem.",
+    "inReading": {
+      "love": "Feeling stuck, unsure, or held back by fear of getting hurt. The way forward may be closer than your worries say.",
+      "work": "A situation that seems to have no options, often because fear is doing the thinking. Write down every possible step, even the small ones.",
+      "growth": "Notice the thoughts that keep you small, like \"I can't\" or \"I'm not allowed.\" Asking for help is one way to loosen the knots."
+    },
+    "questions": [
+      "What story about myself keeps me feeling trapped?",
+      "What small step could I take right now?",
+      "Am I truly stuck, or afraid to move?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The blindfold",
+        "meaning": "fear that hides the way out. The Two of Swords wears one too, but sits calmly, as if by choice."
+      },
+      {
+        "symbol": "The loose ties around her body",
+        "meaning": "limits that may not hold as tightly as they seem. Her feet are free."
+      },
+      {
+        "symbol": "The swords around her",
+        "meaning": "thoughts that fence her in, with a gap left open."
+      },
+      {
+        "symbol": "The water at her feet",
+        "meaning": "feelings pooling and going nowhere."
+      },
+      {
+        "symbol": "The castle on the cliff",
+        "meaning": "safety and home, out of sight but not out of reach."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Eight is movement and mastery. In Swords, the mind itself holds the movement back: mastering this card means learning that thoughts are not walls."
   },
   {
     "name": "Nine of Swords",
@@ -2610,13 +2886,46 @@ const cards = [
     "arcana": "Minor",
     "number": 9,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "anxiety",
+      "worry",
+      "sleepless nights",
+      "fear"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Nine of Swords is the worry that keeps you up at night. It invites you to look at your fears in the light instead of letting them grow in the dark. This might be anxiety, guilt, regret, or a mind that keeps replaying the worst. Worries feel loudest at night, and many look smaller by morning.",
+    "inReading": {
+      "love": "Worry, insecurity, or overthinking, whether about a relationship or about being alone. Say your fears out loud to someone you trust before they grow.",
+      "work": "Stress that follows you home and steals your sleep. Separate what you can act on from what you can only worry about.",
+      "growth": "Get the thoughts out of your head, onto paper or into words with someone you trust. Fear shrinks when you look at it closely."
+    },
+    "questions": [
+      "What worry has been keeping me awake?",
+      "Which of my fears are facts, and which are stories?",
+      "Am I facing my worries, or feeding them?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The figure sitting up in bed, face in hands",
+        "meaning": "waking from a nightmare, or unable to sleep at all."
+      },
+      {
+        "symbol": "The nine swords on the wall",
+        "meaning": "fears that loom large, yet none of them touch her."
+      },
+      {
+        "symbol": "The quilt of roses",
+        "meaning": "comfort and warmth still close at hand."
+      },
+      {
+        "symbol": "The carving on the bed",
+        "meaning": "old pain, carved into the place she rests. Many readers see one figure defeating another in it."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Nine is nearly complete, the last stretch. In Swords, the last stretch is the mind at its most restless: worries pile up just before the cycle ends."
   },
   {
     "name": "Ten of Swords",
@@ -2624,13 +2933,46 @@ const cards = [
     "arcana": "Minor",
     "number": 10,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "ending",
+      "rock bottom",
+      "release",
+      "a new dawn"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Ten of Swords is the end of a painful chapter. It invites you to accept that something is over, so you can stop fighting it. This might be a loss, a betrayal, a defeat, or simple exhaustion after a long struggle. The picture is dramatic, but the worst has already happened, and from here the only way is up.",
+    "inReading": {
+      "love": "A clear ending, or the end of hoping someone or something will change. Let it be finished, and give your heart time to heal.",
+      "work": "A project, role, or plan reaching a hard end. Learn what you can, rest, and start again when you're ready.",
+      "growth": "Stop reliving the wound. Accepting an ending hurts, and it is also where recovery begins."
+    },
+    "questions": [
+      "What has truly ended in my life?",
+      "What can I let go of, now that the worst is over?",
+      "Am I accepting this ending, or making it bigger than it is?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The figure lying face down",
+        "meaning": "something that has fully run its course."
+      },
+      {
+        "symbol": "The ten swords",
+        "meaning": "more than enough. The struggle is completely over."
+      },
+      {
+        "symbol": "The still water",
+        "meaning": "calm after the storm."
+      },
+      {
+        "symbol": "The horizon",
+        "meaning": "a new day beyond the ending. Many readers see dawn breaking in this sky."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Ten is completion, a cycle carried to its end. In Swords, the cycle ends with the mind's hardest truth: something is over, and accepting it is how you begin again."
   },
   {
     "name": "Page of Swords",
@@ -2638,13 +2980,50 @@ const cards = [
     "arcana": "Minor",
     "number": 11,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "curiosity",
+      "new ideas",
+      "alertness",
+      "eagerness to learn"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Page of Swords is a curious mind, eager to learn. It invites you to ask questions, gather information, and test new ideas. This might be learning a skill, joining a lively debate, or noticing details others miss. A sharp mind is a gift, so keep it kind, and don't mistake gossip for truth.",
+    "inReading": {
+      "love": "Lively conversation, curiosity about someone new, or a wish to understand the person you're with more deeply. Ask questions, and really listen to the answers.",
+      "work": "A time to research, learn, and speak up with fresh ideas. Check your facts before you share them.",
+      "growth": "Feed your mind by reading, asking, and exploring. Stay open to being wrong, too."
+    },
+    "questions": [
+      "What am I curious to learn right now?",
+      "What questions haven't I asked yet?",
+      "Am I seeking the truth, or just looking for something to say?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The raised sword",
+        "meaning": "a sharp young mind, eager to test itself."
+      },
+      {
+        "symbol": "The wind in the Page's hair",
+        "meaning": "ideas in motion, changing quickly."
+      },
+      {
+        "symbol": "The birds in the sky",
+        "meaning": "thoughts flying free."
+      },
+      {
+        "symbol": "The billowing clouds",
+        "meaning": "air, the suit's restless element, all around."
+      },
+      {
+        "symbol": "The uneven ground",
+        "meaning": "the Page is still finding steady footing."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Pages are students, curious and learning. The Page of Swords studies air: questions, ideas, and the first sharp edges of thinking for yourself."
   },
   {
     "name": "Knight of Swords",
@@ -2652,13 +3031,50 @@ const cards = [
     "arcana": "Minor",
     "number": 12,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "speed",
+      "ambition",
+      "directness",
+      "charging ahead"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Knight of Swords charges ahead with fierce determination. He invites you to act boldly on your ideas and speak your mind. This might be a fast decision, a strong argument, or a race toward a goal. Speed is powerful, but rushing can trample people and details along the way.",
+    "inReading": {
+      "love": "Fast feelings, bold words, or a connection that moves quickly. Directness helps, as long as you listen as hard as you speak.",
+      "work": "Push your idea forward with focus and drive. Pause long enough to check the plan before you charge.",
+      "growth": "Act on what you believe, with courage. Make sure your speed comes from clarity, not impatience."
+    },
+    "questions": [
+      "What goal am I ready to chase with full force?",
+      "Where would being more direct help me?",
+      "Am I moving with purpose, or just rushing?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The raised sword",
+        "meaning": "a mind locked onto its goal."
+      },
+      {
+        "symbol": "The galloping horse",
+        "meaning": "thought at full speed. Compare the calm horse of the Knight of Cups."
+      },
+      {
+        "symbol": "The storm clouds",
+        "meaning": "trouble he rides straight into without slowing down."
+      },
+      {
+        "symbol": "The wind-bent trees",
+        "meaning": "the force of air, and of his charge."
+      },
+      {
+        "symbol": "The plume streaming from his helmet",
+        "meaning": "how fast he is going."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Knights are action, the rank that charges ahead. The Knight of Swords carries air at full speed: quick, sharp, and sometimes moving faster than his own thinking."
   },
   {
     "name": "Queen of Swords",
@@ -2666,13 +3082,50 @@ const cards = [
     "arcana": "Minor",
     "number": 13,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "clear judgment",
+      "honesty",
+      "independence",
+      "perception"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The Queen of Swords sees clearly and speaks the truth with care. She invites you to trust your own judgment and set honest boundaries. This might look like giving straight advice, saying no without guilt, or turning past hurts into wisdom instead of armor. Her honesty is a gift when it comes with warmth; without it, it can turn cold.",
+    "inReading": {
+      "love": "Clear boundaries, honest talk, and a heart that knows its worth. Love, whether you're finding it or tending it, grows best on truth rather than games.",
+      "work": "Make decisions with a cool head and say them plainly. Fair, direct feedback earns respect.",
+      "growth": "Let what life has taught you, even the painful parts, become wisdom. It starts with being honest with yourself."
+    },
+    "questions": [
+      "Where do I need to see things as they really are?",
+      "What boundary would protect my peace?",
+      "Am I being clear and fair, or sharp and cold?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The upright sword",
+        "meaning": "clear judgment, held steady."
+      },
+      {
+        "symbol": "The raised open hand",
+        "meaning": "a welcome, offered honestly and on her own terms."
+      },
+      {
+        "symbol": "The butterflies on her crown",
+        "meaning": "air, and a mind that has been through change."
+      },
+      {
+        "symbol": "The single bird above",
+        "meaning": "clear sight, and a mind at ease standing alone."
+      },
+      {
+        "symbol": "The clouds below her",
+        "meaning": "troubles she has risen above."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Queens are inner mastery, holding their element with care. The Queen of Swords holds air with clarity: honest thought, fair judgment, and words chosen with care."
   },
   {
     "name": "King of Swords",
@@ -2680,13 +3133,46 @@ const cards = [
     "arcana": "Minor",
     "number": 14,
     "suit": "Swords",
-    "keywordsUpright": [],
+    "keywordsUpright": [
+      "authority",
+      "intellect",
+      "truth",
+      "fair judgment"
+    ],
     "keywordsReversed": [],
     "story": "",
-    "upright": "",
+    "upright": "The King of Swords leads with a clear mind and firm principles. He invites you to decide based on facts, fairness, and long-term thinking. This might look like setting rules, giving expert advice, or settling a dispute with reason rather than temper. His clarity is strong, but logic without compassion can feel harsh.",
+    "inReading": {
+      "love": "Mature, honest communication and clear expectations, with a partner or with yourself. Love grows where truth is spoken calmly and promises are kept.",
+      "work": "Lead with expertise and fair decisions. A mentor, lawyer, or advisor with sharp judgment may help.",
+      "growth": "Practice thinking things through before you react. Let your values guide your choices, not your moods."
+    },
+    "questions": [
+      "What decision calls for a clear, fair head?",
+      "Which principles do I want to live by?",
+      "Am I being wise and fair, or cold and rigid?"
+    ],
+    "inPicture": [
+      {
+        "symbol": "The sword, tilted slightly",
+        "meaning": "authority ready to act. Some readers see a judgment that can lean toward mercy."
+      },
+      {
+        "symbol": "The steady, forward gaze",
+        "meaning": "facing the truth head-on."
+      },
+      {
+        "symbol": "The butterflies on the throne",
+        "meaning": "air and change, echoing the Queen's crown."
+      },
+      {
+        "symbol": "The birds in the sky",
+        "meaning": "free thought, high above the ground."
+      }
+    ],
     "reversed": "",
     "symbolism": "",
-    "suitAndNumber": ""
+    "suitAndNumber": "Kings are outer mastery, leading with their element. The King of Swords leads with air: reason, truth, and fair rules that others can rely on."
   },
   {
     "name": "Ace of Pentacles",
