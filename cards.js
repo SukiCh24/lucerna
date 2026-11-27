@@ -309,6 +309,7 @@ const cards = [
   },
   {
     "name": "Strength",
+    "image": "images/strength-lucerna-open.png",
     "arcana": "Major",
     "number": 8,
     "suit": null,
