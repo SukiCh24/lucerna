@@ -337,6 +337,7 @@ const cards = [
   },
   {
     "name": "Wheel of Fortune",
+    "image": "images/wheel-of-fortune-lucerna-open.png",
     "arcana": "Major",
     "number": 10,
     "suit": null,
