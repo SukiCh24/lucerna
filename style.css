@@ -921,3 +921,136 @@ h1 {
     padding: 7px 12px;
   }
 }
+
+/* ---------- Library: bookshelves (experiment) ---------- */
+
+.bookcase {
+  margin-bottom: 36px;
+}
+
+/* The dark wooden case around the shelves */
+.bookcase-frame {
+  max-width: 520px;
+  padding: 14px 12px 4px;
+  border: 1px solid rgba(230, 220, 198, 0.12);
+  border-radius: 4px;
+  background: linear-gradient(180deg, #1d1712, #120e0b);
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.shelf {
+  margin-bottom: 14px;
+}
+
+.shelf-label {
+  margin: 0 0 6px;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--moon-blue);
+}
+
+/* Books stand side by side on the plank, bottoms lined up */
+.shelf-books {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  padding: 0 4px;
+}
+
+.shelf-plank {
+  height: 7px;
+  border-radius: 1px;
+  background: linear-gradient(180deg, #4a3a2a, #2a2018);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* One book spine */
+.book {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  box-sizing: border-box;
+  padding: 8px 0 10px;
+  border-radius: 3px 3px 1px 1px;
+  text-decoration: none;
+  color: var(--mist);
+  box-shadow: inset 2px 0 3px rgba(255, 255, 255, 0.06), inset -3px 0 4px rgba(0, 0, 0, 0.45);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* Thin bone bands near the top and bottom of each spine */
+.book::before,
+.book::after {
+  content: "";
+  width: 70%;
+  height: 1px;
+  background: rgba(230, 220, 198, 0.45);
+}
+.book::before { order: -1; }
+.book::after { margin-top: auto; }
+
+.tone-1 { background: #3a2d20; }
+.tone-2 { background: #2b231b; }
+.tone-3 { background: #4a2f26; }
+.tone-4 { background: #33302a; }
+
+/* Every Major book is one-sixth of the shelf wide,
+   so the four on the bottom shelf match the rest */
+.bookcase-major .book {
+  flex: 0 0 calc((100% - 15px) / 6);
+  height: calc(184px + var(--lift));
+}
+
+.bookcase-minor .book {
+  height: calc(104px + var(--lift));
+}
+
+.book-numeral {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.85rem;
+  font-variant-numeric: lining-nums;
+  color: var(--moon-blue);
+  white-space: nowrap;
+}
+
+/* Titles run down the spine, like a real book */
+.book-title {
+  writing-mode: vertical-rl;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.bookcase-minor .book-title {
+  font-size: 0.85rem;
+}
+
+/* Pulled forward a little when hovered or chosen */
+.book:hover {
+  transform: translateY(-6px);
+  filter: brightness(1.25);
+}
+
+.book.active {
+  transform: translateY(-10px);
+  filter: brightness(1.4);
+  color: #f4ede0;
+}
+
+@media (max-width: 500px) {
+  .shelf-books { gap: 2px; padding: 0 2px; }
+  .bookcase-frame { padding: 12px 8px 2px; }
+  .bookcase-minor .book-numeral { font-size: 0.7rem; }
+  .bookcase-minor .book-title { font-size: 0.75rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book { transition: none; }
+}
